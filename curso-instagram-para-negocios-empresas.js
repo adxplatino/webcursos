@@ -28,8 +28,7 @@ document.getElementById('adsContenedor').appendChild(inlineScript);
 }
 
 Swal.fire({
-title: '<strong>Curso Instagram para negocios empresas gratis -
-herramientas, campañas, recomendaciones</strong>', 
+title: '<strong>Curso Instagram para negocios empresas gratis - herramientas, campañas, recomendaciones</strong>', 
 html:  '¿Te gustó?</br>¡compártelo con tus amigos y familiares!' +
     '</br></br><div class="iframe-container"><iframe title="vimeo-player" src=' + video[e] + ' width="100%" height="480" frameborder="0" allowfullscreen></iframe></div></br><div id="adsContenedor"></div></br>',
 showCloseButton: true,
