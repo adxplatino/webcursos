@@ -3,20 +3,20 @@ var leccion = ["/",
 "https://drive.google.com/file/d/1a6ASsWBSl5PFlrESuGMyMf11dY_3MofJ/view",
 "https://drive.google.com/file/d/1We840Vgoz6zd2Fl1A3c0h-1GcNn7KlFt/view",
                
-"https://drive.google.com/file/d/1mx25EAHAY8m6qv0PLdi3pXWQlA3XU4P3/preview",
-"https://drive.google.com/file/d/1guYT7_HN6A1wJqXTY-nGepops1_r7gli/preview",
+"https://drive.google.com/file/d/1MAF1Uw60xm8sTJf7DFGvzvg3HFJKaCGf/view?usp=sharing",
+"https://drive.google.com/file/d/189s96G7zTTO9Trdj6-WytZcGAPl7ZhK1/view?usp=sharing",
                
-"https://drive.google.com/file/d/1yOotv2R87iV98oICgxpylj5j6UR8EIjk/preview",
-"https://drive.google.com/file/d/180ek83MPSc0LEKx056-sbUoPvyJNlfo7/preview",
-"https://drive.google.com/file/d/1Kh46A7GxwOjnxge3t6V2XZDQBOmrxLaJ/preview",
-"https://drive.google.com/file/d/1K2VtcviMA4wobjdKV4Zd4VCLOfyJwxLo/preview",
-"https://drive.google.com/file/d/1Ktk1p3UugX2GiWJ0XxgOyZSkWWrbVyON/preview",
+"https://drive.google.com/file/d/1E0AKERwonVnvcA2XAlNRjDGQcT6RGDMu/view?usp=sharing",
+"https://drive.google.com/file/d/1YaUqjkp2ZkvwoSwpC2id9BrK4atk-OP7/view?usp=sharing",
+"https://drive.google.com/file/d/1skYvT6WzrMzJIAgXJxBI8DNPE29oK9L7/view?usp=sharing",
+"https://drive.google.com/file/d/1jFvkImFIQvA00TWPoMmuNxrA6yu0B3FY/view?usp=sharing",
+"https://drive.google.com/file/d/1snK6Psue08NjSVWlRxX3dq8EgFbAgO32/view?usp=sharing",
                
-"https://drive.google.com/file/d/1p_L0311crnb15CwDrIO8ZuNLJJySLIYi/preview",
-"https://drive.google.com/file/d/1kFjhdHjSsreopma3BW6YFfN-RhZNS4wb/preview",
+"https://drive.google.com/file/d/1HIgSbbyOkABBsmJaeTPtJC7K5HRh_wTU/view?usp=sharing",
+"https://drive.google.com/file/d/1POrJtTXzWH_peRgb_5WBJie5zyt2qcnV/view?usp=sharing",
                
-"https://drive.google.com/file/d/1_CchNB8edy3lBP33lqr6CxUMNij9xoJj/preview",
-"https://drive.google.com/file/d/153LtCVSZDwKZ2bMBw-P1efkzqbxfzj2Z/preview"];
+"https://drive.google.com/file/d/1zUSl-VMx0k00z-wZd8Isw5XgUKgAndM8/view?usp=sharing",
+"https://drive.google.com/file/d/1WWPXTtGZg5r-fLOhQVILQMpHuyfcRmUr/view?usp=sharing"];
 
 function ads(){
 
