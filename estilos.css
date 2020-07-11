@@ -12,7 +12,11 @@ img{
 }
 .navbar-toggler {
   margin-right: 0.75rem;
-  }
+}
+nav{
+
+margin-bottom: 10px;
+}
 main{
   width: 98%;
   max-width: 650px;
