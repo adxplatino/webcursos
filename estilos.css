@@ -83,24 +83,7 @@ ul.menuabajo li a {
 .h4, h4 {
     font-size: 1rem;
 }
-a {
-    color: #348ea5;
-    text-decoration: none;
-    background-color: transparent;
-}
-a {
-    color: #348ea5;
-    text-decoration: none;
-    background-color: transparent;
-}
-a:hover {
-    color: #348ea5;
-    text-decoration: none;
-    background-color: transparent;
-}
-.btn-outline-info a:hover {
-    color: #ffffff;
-}
+
 
 
 
