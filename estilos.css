@@ -98,7 +98,9 @@ a:hover {
     text-decoration: none;
     background-color: transparent;
 }
-
+.btn-outline-info a:hover {
+    color: #ffffff;
+}
 
 
 
