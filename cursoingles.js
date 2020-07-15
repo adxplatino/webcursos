@@ -24,6 +24,7 @@ document.getElementById('adsContenedor').appendChild(comment);
 
 var ins   = document.createElement("ins");
 ins.setAttribute('class','adsbygoogle');
+ins.setAttribute('style','display:block');
 ins.setAttribute('data-ad-client','ca-pub-6278983531888232');
 ins.setAttribute('data-ad-slot','9303445348');
 ins.setAttribute('data-ad-format','auto');
