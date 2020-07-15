@@ -23,7 +23,7 @@ function ads(){
 var externalScript   = document.createElement("script");
 externalScript.type  = "text/javascript";
 externalScript.setAttribute('async',"");
-externalScript.src = "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
+externalScript.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
 document.getElementById('adsContenedor').appendChild(externalScript);
 
 var comment = document.createComment(" infocursos_adap_jul ");
