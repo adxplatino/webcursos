@@ -19,6 +19,8 @@ img{
 }
 body{
   background: #ececec;
+  margin: 0px;
+  padding: 0px;
 }
 .menuabajo{
   list-style-type: none; 
