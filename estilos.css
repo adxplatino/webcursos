@@ -8,9 +8,10 @@ img{
   width: 100%;
 }
 .cuerpo{
-
+  background: #ffffff;
+}
+body{
   background: #ececec;
-
 }
 .menuabajo{
   list-style-type: none; 
