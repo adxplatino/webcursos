@@ -5,7 +5,7 @@ img{
 .cabecera{
   max-width: 650px !important;
   padding: 0;
-  width: 100%;
+  width: 98%;
 }
 .cuerpo{
   background: #ffffff;
@@ -28,7 +28,7 @@ border-top-left-radius: 10px;
 border-top-right-radius: 10px;
 }
 main{
-  width: 100%;
+  width: 98%;
   max-width: 650px;
   margin: 10px auto;
   background: #fff;
