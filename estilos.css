@@ -23,6 +23,7 @@ body{
   margin: 0px;
   padding: 0px;
   overflow: hidden;
+  font: normal normal 20px Roboto;
 }
 .menuabajo{
   list-style-type: none; 
