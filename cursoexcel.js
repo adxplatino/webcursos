@@ -1,5 +1,5 @@
-function lecciones(e){
-var leccion = ["/",
+function vmodal(e){
+var video = ["/",
 "https://drive.google.com/file/d/1bFOpc6dLzaIqNIIb8ke8SXIR0_RpC91l/preview",
 "https://drive.google.com/file/d/1_nS9NFiesso7uOnPCiZlM_EXss-p7hxx/preview",
 "https://drive.google.com/file/d/1mx25EAHAY8m6qv0PLdi3pXWQlA3XU4P3/preview",
@@ -57,15 +57,10 @@ var leccion = ["/",
 "https://drive.google.com/file/d/1OUNEx6R_PId86XrPUWqwMuyW9xlKS1GF/preview",
 "https://drive.google.com/file/d/153LtCVSZDwKZ2bMBw-P1efkzqbxfzj2Z/preview"];
 
-Swal.fire({
-title: '<strong>Leccion ' + e + '</strong>',
-html:  'Disfruta nuestro fantástico curso excel gratis. Y si te gusta, ¡compártelo con tus amigos en las redes sociales!' +
-    '</br></br><div class="iframe-container"><iframe title="vimeo-player" src=' + leccion[e] + ' width="100%" height="420" frameborder="0" allowfullscreen></iframe></div></br><div id="adsContenedor"></div></br>',
-showCloseButton: true,
-showConfirmButton: false,
-focusCancel: false,
-focusConfirm: false,
-allowOutsideClick: false
-})
+  var titulomodal = document.getElementById("titulomodal");
+  titulomodal.innerHTML = "Curso Excel GRATIS";
+
+  var cuerpomodal = document.getElementById("cuerpomodal");
+  cuerpomodal.innerHTML = "<div class='iframe-container'><iframe src="+video[e]+" width='100%' height='480' frameborder='0' allowfullscreen></iframe></div></br><div id='adsContenedor'></div></br>";
 
 }
