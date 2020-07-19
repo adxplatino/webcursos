@@ -61,10 +61,13 @@ ul.menuabajo li a {
   text-align: center;
 }
 .modal-body {
-    padding: 5px;
+  padding: 5px;
 }
 .modal-header .close {
-    margin: -12px;
+  margin: -12px;
+}
+.modal-title {
+  margin: 0 auto;
 }
 	
 
