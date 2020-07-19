@@ -1,5 +1,5 @@
-function lecciones(e){
-var leccion = ["/",
+function vmodal(e){
+var video = ["/",
 "https://drive.google.com/file/d/1a6ASsWBSl5PFlrESuGMyMf11dY_3MofJ/preview",
 "https://drive.google.com/file/d/1We840Vgoz6zd2Fl1A3c0h-1GcNn7KlFt/preview",
                
@@ -18,15 +18,10 @@ var leccion = ["/",
 "https://drive.google.com/file/d/1zUSl-VMx0k00z-wZd8Isw5XgUKgAndM8/preview",
 "https://drive.google.com/file/d/1WWPXTtGZg5r-fLOhQVILQMpHuyfcRmUr/preview"];
 
-Swal.fire({
-title: '<strong>Leccion ' + e + '</strong>',
-html:  'Disfruta nuestro fantástico Curso Electrónica Basica Gratis. Y si te gusta, ¡compártelo con tus amigos en las redes sociales!' +
-    '</br></br><div class="iframe-container"><iframe title="vimeo-player" src=' + leccion[e] + ' width="100%" height="420" frameborder="0" allowfullscreen></iframe></div></br><div id="adsContenedor"></div></br>',
-showCloseButton: true,
-showConfirmButton: false,
-focusCancel: false,
-focusConfirm: false,
-allowOutsideClick: false
-})
+var titulomodal = document.getElementById("titulomodal");
+  titulomodal.innerHTML = "Curso Electrónica Básica Gratis";
+
+var cuerpomodal = document.getElementById("cuerpomodal");
+  cuerpomodal.innerHTML = "<div class='iframe-container'><iframe src="+video[e]+" width='100%' height='480' frameborder='0' allowfullscreen></iframe></div></br><div id='adsContenedor'></div></br>";
 
 }
