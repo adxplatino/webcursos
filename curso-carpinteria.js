@@ -1,5 +1,5 @@
-function lecciones(e){
-var leccion = ["/",
+function vmodal(e){
+var video = ["/",
 "https://drive.google.com/file/d/192HJ7GfcwQWoGEyU6fCDeJGULND4hKTu/preview",
 "https://drive.google.com/file/d/1Qe2RBLZj3EiNlr64Os0WrxCArHBCbBZ-/preview",
 "https://drive.google.com/file/d/17XxSjI0Q64pPwuMjoROPWqP_JXuWBplK/preview",
@@ -34,15 +34,10 @@ var leccion = ["/",
                
 "https://drive.google.com/file/d/1-uzglDsSKetWayMXjLnqqR6qCnRwe_OD/preview"];
 
-Swal.fire({
-title: '<strong>Leccion ' + e + '</strong>',
-html:  'Disfruta nuestro fantástico Curso de Carpinteria Gratis. Y si te gusta, ¡compártelo con tus amigos en las redes sociales!' +
-    '</br></br><div class="iframe-container"><iframe title="vimeo-player" src=' + leccion[e] + ' width="100%" height="420" frameborder="0" allowfullscreen></iframe></div></br><div id="adsContenedor"></div></br>',
-showCloseButton: true,
-showConfirmButton: false,
-focusCancel: false,
-focusConfirm: false,
-allowOutsideClick: false
-})
+  var titulomodal = document.getElementById("titulomodal");
+  titulomodal.innerHTML = "Curso De Carpintería GRATIS";
+
+  var cuerpomodal = document.getElementById("cuerpomodal");
+  cuerpomodal.innerHTML = "<div class='iframe-container'><iframe src="+video[e]+" width='100%' height='480' frameborder='0' allowfullscreen></iframe></div></br><div id='adsContenedor'></div></br>";
 
 }
