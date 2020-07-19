@@ -4,7 +4,7 @@ var video = ["/",
   
 document.getElementById("titulomodal").innerHTML += "<strong>Curso Instagram GRATIS para negocios y empresas</strong>";
 
-document.getElementById("modal-body").innerHTML += "<div class='iframe-container'><iframe title='vimeo-player' src="+video[e]+" width='100%' height='480' frameborder='0' allowfullscreen></iframe></div></br><div id='adsContenedor'></div></br>";
+document.getElementById("cuerpomodal").innerHTML += "<div class='iframe-container'><iframe title='vimeo-player' src="+video[e]+" width='100%' height='480' frameborder='0' allowfullscreen></iframe></div></br><div id='adsContenedor'></div></br>";
 
 }
 
