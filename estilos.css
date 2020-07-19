@@ -60,11 +60,11 @@ ul.menuabajo li a {
   text-decoration: none;
   text-align: center;
 }
-.swal2-content {
-    padding: 0px;
-}
 .modal-body {
     padding: 5px;
+}
+.modal-title {
+text-align: center;
 }
 	
 
