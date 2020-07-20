@@ -35,7 +35,7 @@ var video = ["/",
 "https://drive.google.com/file/d/1-uzglDsSKetWayMXjLnqqR6qCnRwe_OD/preview"];
 
   var titulomodal = document.getElementById("titulomodal");
-  titulomodal.innerHTML = "Curso De Carpintería GRATIS";
+  titulomodal.innerHTML = "Curso De Carpintería GRATIS</br>Lección " + [e];
 
   var cuerpomodal = document.getElementById("cuerpomodal");
   cuerpomodal.innerHTML = "<div class='iframe-container'><iframe src="+video[e]+" width='100%' height='480' frameborder='0' allowfullscreen></iframe></div></br><div id='adsContenedor'></div></br>";
