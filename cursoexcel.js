@@ -58,7 +58,7 @@ var video = ["/",
 "https://drive.google.com/file/d/153LtCVSZDwKZ2bMBw-P1efkzqbxfzj2Z/preview"];
 
   var titulomodal = document.getElementById("titulomodal");
-  titulomodal.innerHTML = "Curso Excel GRATIS</br>Lección " + [e];
+  titulomodal.innerHTML = "CURSO EXCEL GRATIS</br>LECCIÓN " + [e];
 
   var cuerpomodal = document.getElementById("cuerpomodal");
   cuerpomodal.innerHTML = "<div class='iframe-container'><iframe src="+video[e]+" width='100%' height='480' frameborder='0' allowfullscreen></iframe></div></br><div id='adsContenedor'></div></br>";
