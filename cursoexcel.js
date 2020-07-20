@@ -57,10 +57,12 @@ var video = ["/",
 "https://drive.google.com/file/d/1OUNEx6R_PId86XrPUWqwMuyW9xlKS1GF/preview",
 "https://drive.google.com/file/d/153LtCVSZDwKZ2bMBw-P1efkzqbxfzj2Z/preview"];
 
-  var titulomodal = document.getElementById("titulomodal");
+var titulomodal = document.getElementById("titulomodal");
   titulomodal.innerHTML = "CURSO EXCEL GRATIS</br>LECCIÓN " + [e];
 
-  var cuerpomodal = document.getElementById("cuerpomodal");
-  cuerpomodal.innerHTML = "<div class='iframe-container'><iframe src="+video[e]+" width='100%' height='480' frameborder='0' allowfullscreen></iframe></div></br><div id='adsContenedor'></div></br>";
-
+var cuerpomodal = document.getElementById("cuerpomodal");
+  cuerpomodal.innerHTML = "<div class='iframe-container'><iframe id='modalVideo' src="+video[e]+" width='100%' height='480' frameborder='0' allowfullscreen></iframe></div></br><div id='adsContenedor'></div></br>";
+}
+function cerrarmodal(){
+  $("#modalVideo").attr('src', '');
 }
