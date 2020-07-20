@@ -12,6 +12,7 @@ var video = ["/",
 "https://player.vimeo.com/video/392909060?title=0&byline=0&portrait=0&sidedock=0"];
   var titulomodal = document.getElementById("titulomodal");
   titulomodal.innerHTML = "Curso De Inglés GRATIS</br>Lección "[e];
+  titulomodal.innerHTML = "</br>Lección" + [e];
   var cuerpomodal = document.getElementById("cuerpomodal");
   cuerpomodal.innerHTML = "<div class='iframe-container'><iframe src="+video[e]+" width='100%' height='480' frameborder='0' allowfullscreen></iframe></div></br><div id='adsContenedor'></div></br>";
 }
