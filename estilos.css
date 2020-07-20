@@ -68,6 +68,7 @@ ul.menuabajo li a {
 }
 .modal-title {
   text-align: center;
+   margin: 0 auto;
 }	
 .iframe-container{
   position: relative;
