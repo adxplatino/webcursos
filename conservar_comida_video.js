@@ -1,10 +1,6 @@
 $(document).ready(function(){
-    $("#mimodal").on('hide.bs.modal', function(){
         $("#modalVideo").attr('src', '');
-    });
 });
-
-
 
 function vmodal(e){
 var video = ["/",
