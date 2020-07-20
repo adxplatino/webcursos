@@ -67,12 +67,8 @@ ul.menuabajo li a {
   margin: -12px;
 }
 .modal-title {
-  margin: 0 auto;
-}
-	
-
-
-
+  text-align: center;
+}	
 .iframe-container{
   position: relative;
   width: 100%;
@@ -86,20 +82,6 @@ ul.menuabajo li a {
   width: 100%;
   height: 100%;
 }
-.swal2-popup {
-    padding: 0.25em;
-}
-.botonn {
-    color: #0053f9;
-}
-.swal2-content{
-  font-size: 0.9em;
-}
-.swal2-title {
-    font-size: 1em;
-    margin: 1em 0 1em;
-    max-width: 75%;
-}
 .h3, h3 {
     font-size: 1.25rem;
 }
@@ -110,18 +92,6 @@ ul.menuabajo li a {
 }
 .h4, h4 {
     font-size: 1rem;
-}
-
-
-
-
-
-
-.botonmas {
-    background: #fff !important;
-}
-.bg-success {
-    background-color: #28a745!important;
 }
 #kbd {
     padding: .2rem .4rem;
