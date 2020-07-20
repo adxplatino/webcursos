@@ -12,4 +12,5 @@ var cuerpomodal = document.getElementById("cuerpomodal");
 
 function cerrarmodal(){
 document.getElementById("modalVideo").attr('src', '');
+  $("#modalVideo").attr('src', '');
 }
