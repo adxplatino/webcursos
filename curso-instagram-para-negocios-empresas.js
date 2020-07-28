@@ -1,6 +1,6 @@
 function vmodal(e){
 var video = ["/",
-"https://www.youtube.com/embed/aLyWMVwnSJc?controls=0"];
+"https://www.facebook.com/i.cursoexcel/videos/596879734307188/"];
 
 var titulomodal = document.getElementById("titulomodal");
   titulomodal.innerHTML = "Curso Instagram GRATIS";
