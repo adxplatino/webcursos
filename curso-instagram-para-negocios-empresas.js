@@ -1,6 +1,6 @@
 function vmodal(e){
 var video = ["/",
-"https://www.facebook.com/watch/?v=596879734307188"];
+"https://www.youtube.com/embed/aLyWMVwnSJc?controls=0"];
 
 var titulomodal = document.getElementById("titulomodal");
   titulomodal.innerHTML = "Curso Instagram GRATIS";
