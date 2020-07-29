@@ -1,5 +1,7 @@
 function vmodal(e){
 
+function ads(){
+
 var externalScript   = document.createElement("script");
 externalScript.type  = "text/javascript";
 externalScript.setAttribute('async',"");
@@ -22,6 +24,9 @@ var inlineScript   = document.createElement("script");
 inlineScript.type  = "text/javascript";
 inlineScript.text  = '(adsbygoogle = window.adsbygoogle || []).push({});'  
 document.getElementById('adsContenedor').appendChild(inlineScript); 
+
+}
+
 
 var video = ["/",
 "https://www.youtube.com/embed/aLyWMVwnSJc?controls=0"];
