@@ -19,7 +19,7 @@ var video = ["/",
 "https://drive.google.com/file/d/1WWPXTtGZg5r-fLOhQVILQMpHuyfcRmUr/preview"];
 
 var titulomodal = document.getElementById("titulomodal");
-  titulomodal.innerHTML = "CURSO ELECTRONICA BASICA GRATIS</br>LECCIÓN " + [e];
+  titulomodal.innerHTML = "CURSO ELECTRONICA GRATIS</br>LECCIÓN " + [e];
 
 var cuerpomodal = document.getElementById("cuerpomodal");
   cuerpomodal.innerHTML = "<div class='iframe-container'><iframe id='modalVideo' src="+video[e]+" width='100%' height='480' frameborder='0' allowfullscreen></iframe></div></br><center><div id='adsContenedor'></div></center></br>";
