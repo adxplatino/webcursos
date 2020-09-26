@@ -69,7 +69,10 @@ titulomodal.innerHTML = "CURSO DE CARPINTERIA GRATIS</br>LECCIÓN " + [e];
 var cuerpomodal = document.getElementById("cuerpomodal");
   cuerpomodal.innerHTML = "</br><center><div id='adsContenedor'></div></center></br>";
     
-jwplayer("cuerpomodal").setup({ "playlist": [{ "file": "+video[e]+"}]});
+ // Setup the player
+        var player = jwplayer('cuerpomodal').setup({
+            file: '+video[e]+'
+        });
 
 ads();
 }
