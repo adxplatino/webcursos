@@ -67,7 +67,7 @@ function play{
 var externalScript   = document.createElement("script");
 externalScript.type  = "text/javascript";
   
-inlineScript.text  = 'jwplayer("cuerpomodal").setup({ "playlist": [{"file": "+video[e]+"}]});' 
+inlineScript.text  = 'jwplayer("cuerpomodal").setup({ "playlist": [{"file": "https://cdn11.capacitateparaelempleo.org/mobilified/r3vHWPRRTg8.mp4"}]});' 
   
 var inlineScript   = document.createElement("script");
 inlineScript.type  = "text/javascript";
