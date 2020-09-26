@@ -1,7 +1,7 @@
 function vmodal(e){
 
 var video = ["/",
-"https://cdn11.capacitateparaelempleo.org/mobilified/Wsuivz5M7sg.mp4"];
+"https://www.youtube.com/embed/aLyWMVwnSJc?controls=0"];
 
 var titulomodal = document.getElementById("titulomodal");
   titulomodal.innerHTML = "Curso Instagram GRATIS";
