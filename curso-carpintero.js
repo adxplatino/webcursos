@@ -63,11 +63,20 @@ document.getElementById('adsContenedor').appendChild(inlineScript);
 
 }
   
+function play{
+var externalScript   = document.createElement("script");
+externalScript.type  = "text/javascript";
+  
+inlineScript.text  = 'jwplayer("cuerpomodal").setup({ "playlist": [{"file": "+video[e]+"}]});' 
+  
+var inlineScript   = document.createElement("script");
+inlineScript.type  = "text/javascript";
+}
+  
 var titulomodal = document.getElementById("titulomodal");
 titulomodal.innerHTML = "CURSO DE CARPINTERIA GRATIS</br>LECCIÓN " + [e];
 
-var cuerpomodal = document.getElementById("cuerpomodal");
-  cuerpomodal.innerHTML = "<script type="text/JavaScript">jwplayer("cuerpomodal").setup({ "playlist": [{"file": "+video[e]+"}]});</script>";
+play();
 ads();
 }
 function cerrarmodal(){
