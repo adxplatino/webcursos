@@ -1,38 +1,42 @@
 function vmodal(e){
 var video = ["/",
-"https://drive.google.com/file/d/192HJ7GfcwQWoGEyU6fCDeJGULND4hKTu/preview",
-"https://drive.google.com/file/d/1Qe2RBLZj3EiNlr64Os0WrxCArHBCbBZ-/preview",
-"https://drive.google.com/file/d/17XxSjI0Q64pPwuMjoROPWqP_JXuWBplK/preview",
-               
-"https://drive.google.com/file/d/1dw-skxlWAvtyY6UMjh7XkZSPRTaEElz2/preview",
-"https://drive.google.com/file/d/1Qzw3ieccSJPq0GZ6dvjkNEMoEq-LqKIH/preview",
-"https://drive.google.com/file/d/1-kN9xzJwRrJZ3OvnAANLI7EEBQMu3AQM/preview",
-"https://drive.google.com/file/d/10dZN9fC0thSLr93OjRCJdrM9-maslS9V/preview",
-               
-"https://drive.google.com/file/d/1QVg2FEom-WILbm7Jt7pMBrn7rPqmkYDP/preview",
-"https://drive.google.com/file/d/1K8hbtN22_puC8LmhlPZjwOrpeL3gReV9/preview",
-"https://drive.google.com/file/d/1M5ITRbuzOZPqTIw_iBS5BoGw5IPPenyn/preview",
-"https://drive.google.com/file/d/1JAc7u04HfNDX12RZNvl_RfQjkwcManG4/preview",
-"https://drive.google.com/file/d/16M7yNcAdk_N2HPY4I85r9A82aQgjqVua/preview",
-"https://drive.google.com/file/d/1KxXYgXXbxHie5RBs3j-lzMI_4kcySeAm/preview",
-               
-"https://drive.google.com/file/d/1dDmAuSbHqjEShH4X3K_gxnnUBmTt8sYg/preview",
-"https://drive.google.com/file/d/1OeA3O5M8jWq4Aw4y2RuYqckj2i_FaSR-/preview",
-"https://drive.google.com/file/d/1-LEZPLKWugYMB7ignVpzWkqCRlzIqeDi/preview",
-"https://drive.google.com/file/d/1GUvMcxky-oT01MG0BFK-sfLwmipDpCOP/preview",
-"https://drive.google.com/file/d/1q7nB9Kne2KRvXTsS8udbhzt-biRCXKWx/preview",
-"https://drive.google.com/file/d/1XcUppcq1Qo9d4KMxFHVUEIMoRKpfvOWg/preview",
-               
-"https://drive.google.com/file/d/1um5YPs4F2WKF9AXgTG-9w1-VxtSSsslS/preview",
-"https://drive.google.com/file/d/1jBdtaGrOEgfVaQJ0fwBGhkEZJvE80pNf/preview",
-"https://drive.google.com/file/d/1vSnzMN9iRpZeH0WYcSnpNholX3I_FEDy/preview",
+"https://cdn11.capacitateparaelempleo.org/mobilified/r3vHWPRRTg8.mp4",
+"https://cdn11.capacitateparaelempleo.org/mobilified/LcJI2ZJnxdg.mp4",
+"https://cdn11.capacitateparaelempleo.org/mobilified/6iKJY2HGeVk.mp4",
+"https://cdn11.capacitateparaelempleo.org/mobilified/KkHO_HnJuBE.mp4",
+"https://cdn11.capacitateparaelempleo.org/mobilified/YZQG6coIiBw.mp4",
+"https://cdn11.capacitateparaelempleo.org/mobilified/3Mvz6ACdHUk.mp4",
+"https://cdn11.capacitateparaelempleo.org/mobilified/A0-GdQLJeEw.mp4",
 
-"https://drive.google.com/file/d/1BayklCErlWJ7y9ZEoTrUKscbRoHEppYQ/preview",
-"https://drive.google.com/file/d/1OK5EhpQNHCILwj7lTEvlQB_PTAYtdBYU/preview",
-"https://drive.google.com/file/d/1eqEJakARkslJrLurKNVgRw4iKs3fQsd6/preview",
-"https://drive.google.com/file/d/1pRpx_DVtXi80AW2j45o2U77zyos8D89w/preview", 
-               
-"https://drive.google.com/file/d/1-uzglDsSKetWayMXjLnqqR6qCnRwe_OD/preview"];
+"https://cdn11.capacitateparaelempleo.org/mobilified/nWxHKjlI4EU.mp4",
+"https://cdn11.capacitateparaelempleo.org/mobilified/A9ZrENNC1dw.mp4",
+"https://cdn11.capacitateparaelempleo.org/mobilified/ihOKOgD4MNk.mp4",
+"https://cdn11.capacitateparaelempleo.org/mobilified/JFdgKiG1J5E.mp4",
+"https://cdn11.capacitateparaelempleo.org/mobilified/Jk9TrqamdlE.mp4",
+"https://cdn11.capacitateparaelempleo.org/mobilified/9VCIO931VvY.mp4",
+"https://cdn11.capacitateparaelempleo.org/mobilified/JBmrnSe82NQ.mp4",
+"https://cdn11.capacitateparaelempleo.org/mobilified/Tzds-ODM4rs.mp4",
+"https://cdn11.capacitateparaelempleo.org/mobilified/jRlGA43W39M.mp4",
+"https://cdn11.capacitateparaelempleo.org/mobilified/Izigr6Cdvgg.mp4",
+"https://cdn11.capacitateparaelempleo.org/mobilified/PQHW7Gxrpec.mp4",
+
+"https://cdn11.capacitateparaelempleo.org/mobilified/1uSOvfDS2Wo.mp4",
+"https://cdn11.capacitateparaelempleo.org/mobilified/Ea7DrDauBfU.mp4",
+"https://cdn11.capacitateparaelempleo.org/mobilified/cP9ZM1ZTreI.mp4",
+"https://cdn11.capacitateparaelempleo.org/mobilified/pf5PWZ5gFTU.mp4",
+"https://cdn11.capacitateparaelempleo.org/mobilified/CTWEGTQjc9I.mp4",
+"https://cdn11.capacitateparaelempleo.org/mobilified/AJSppBhlDe0.mp4",
+"https://cdn11.capacitateparaelempleo.org/mobilified/X2Efn067dxM.mp4",
+"https://cdn11.capacitateparaelempleo.org/mobilified/rhviLr5EwOk.mp4",
+"https://cdn11.capacitateparaelempleo.org/mobilified/uFY-Y0lUvYc.mp4",
+"https://cdn11.capacitateparaelempleo.org/mobilified/fN4-JUZ16gA.mp4",
+"https://cdn11.capacitateparaelempleo.org/mobilified/i0D1lhRHJ1U.mp4",
+"https://cdn11.capacitateparaelempleo.org/mobilified/qd9fe5fJy64.mp4",
+"https://cdn11.capacitateparaelempleo.org/mobilified/-g4KzBxX0Fs.mp4",
+
+"https://cdn11.capacitateparaelempleo.org/mobilified/DRGweoyYjEg.mp4",
+"https://cdn11.capacitateparaelempleo.org/mobilified/X24OhGsmleg.mp4",
+"https://cdn11.capacitateparaelempleo.org/mobilified/nBbfIZ3VUFs.mp4"];
 
 function ads(){
 
