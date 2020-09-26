@@ -62,21 +62,16 @@ inlineScript.text  = '(adsbygoogle = window.adsbygoogle || []).push({});'
 document.getElementById('adsContenedor').appendChild(inlineScript); 
 
 }
-  
-function play{
-var externalScript   = document.createElement("script");
-externalScript.type  = "text/javascript";
-  
-inlineScript.text  = 'jwplayer('cuerpomodal').setup({ 'playlist': [{'file': 'https://cdn11.capacitateparaelempleo.org/mobilified/r3vHWPRRTg8.mp4'}]});' 
-  
-var inlineScript   = document.createElement("script");
-inlineScript.type  = "text/javascript";
-}
-  
+    
 var titulomodal = document.getElementById("titulomodal");
 titulomodal.innerHTML = "CURSO DE CARPINTERIA GRATIS</br>LECCIÓN " + [e];
 
-play();
+jwplayer("cuerpomodal").setup({ 
+        "playlist": [{
+                "file": "https://cdn11.capacitateparaelempleo.org/mobilified/nBbfIZ3VUFs.mp4"
+        }]
+    });
+  
 ads();
 }
 function cerrarmodal(){
