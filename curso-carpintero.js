@@ -73,5 +73,5 @@ var playeromodal = jwplayer("cuerpomodal").setup({ "playlist": [{ "file": "+vide
 ads();
 }
 function cerrarmodal(){
-  $("#modalVideo").attr('src', '');
+  $("#cuerpomodal").attr('src', '');
 }
