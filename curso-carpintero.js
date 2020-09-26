@@ -77,5 +77,5 @@ var adsmodal = document.getElementById("adsmodal");
 ads();
 }
 function cerrarmodal(){
-  $("#cuerpomodal").attr('src', '');
+  $(".jw-video").attr('src', '');
 }
