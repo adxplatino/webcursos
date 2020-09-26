@@ -68,7 +68,7 @@ titulomodal.innerHTML = "CURSO DE CARPINTERIA GRATIS</br>LECCIÓN " + [e];
 var cuerpomodal = document.getElementById("cuerpomodal");
   cuerpomodal.innerHTML = "</br><center><div id='adsContenedor'></div></center></br>";
     
-var playeromodal = jwplayer("cuerpomodal").setup({ "playlist": [{ "file": "https://cdn11.capacitateparaelempleo.org/mobilified/nBbfIZ3VUFs.mp4"}]});
+var playeromodal = jwplayer("cuerpomodal").setup({ "playlist": [{ "file": "+video[e]+"}]});
 
 ads();
 }
