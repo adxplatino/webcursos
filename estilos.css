@@ -47,6 +47,7 @@ main{
 .widget-content{
   width: 96%;
   max-width: 771px;
+  text-align: center;
 }
 ul.menuabajo{
   list-style-type: none;
