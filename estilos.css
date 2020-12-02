@@ -46,6 +46,8 @@ main{
 }
 .widget-content{
   text-align: center;
+  margin: 20px auto;
+  padding: 20px;
 }
 ul.menuabajo{
   list-style-type: none;
