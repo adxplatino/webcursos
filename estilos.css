@@ -45,13 +45,7 @@ main{
   margin-top: 10px;
 }
 .widget-content{
-  width: 96%;
-  max-width: 771px;
   text-align: center;
-}
-.widWETT{
-  margin-left: auto;
-  margin-right: auto;
 }
 ul.menuabajo{
   list-style-type: none;
