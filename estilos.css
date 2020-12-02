@@ -44,6 +44,10 @@ main{
   padding-top: 10px;
   margin-top: 10px;
 }
+.widget HTML{
+  width: 96%;
+  max-width: 771px;
+}
 ul.menuabajo{
   list-style-type: none;
   margin: 10px;
