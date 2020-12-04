@@ -29,7 +29,7 @@ document.getElementById('adsContenedor').appendChild(inlineScript);
 }
  
 var titulomodal = document.getElementById("titulomodal");
-  titulomodal.innerHTML = "COMO HACER ARBOLES NAVIDEÑOS DE MADERA</br>LECCIÓN " + [e];
+  titulomodal.innerHTML = "COMO HACER ARBOLES NAVIDEÑOS DE MADERA";
 
 var cuerpomodal = document.getElementById("cuerpomodal");
   cuerpomodal.innerHTML = "<div class='iframe-container'><iframe id='modalVideo' src="+video[e]+" width='100%' height='480' frameborder='0' allowfullscreen></iframe></div></br><center><div id='adsContenedor'></div></center></br>";
