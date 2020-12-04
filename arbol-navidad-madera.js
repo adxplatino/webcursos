@@ -1,7 +1,7 @@
 function vmodal(e){
 var video = ["/",
-"https://drive.google.com/file/d/1bFOpc6dLzaIqNIIb8ke8SXIR0_RpC91l/preview",
-"https://drive.google.com/file/d/153LtCVSZDwKZ2bMBw-P1efkzqbxfzj2Z/preview"];
+"https://drive.google.com/file/d/1A3IsUeqz3H9KWC7qpGCG4MvK-25XeeL-/preview",
+"https://drive.google.com/file/d/1A3IsUeqz3H9KWC7qpGCG4MvK-25XeeL-/preview"];
  
 function ads(){
 
