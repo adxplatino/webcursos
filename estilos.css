@@ -23,6 +23,7 @@ body{
   margin: 0px;
   padding: 0px;
   font: normal normal 20px "Nunito Sans", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Helvetica Neue";
+  color: rgba(0,0,0,.8);
 }
 .menuabajo{
   list-style-type: none; 
