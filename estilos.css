@@ -22,7 +22,7 @@ body{
   background: #ececec;
   margin: 0px;
   padding: 0px;
-  font: normal normal 20px Roboto;
+  font: normal normal 20px "Nunito Sans", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Helvetica Neue";
 }
 .menuabajo{
   list-style-type: none; 
