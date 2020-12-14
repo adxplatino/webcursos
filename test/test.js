@@ -5,7 +5,7 @@ var video = ["/",
  
  
 var titulomodal = document.getElementById("titulomodal");
-  titulomodal.innerHTML = "sdfsdfsdfsdf";
+  titulomodal.innerHTML = "Please check the captcha box to proceed to the destination page";
 
 var cuerpomodal = document.getElementById("cuerpomodal");
   cuerpomodal.innerHTML = "<div class='iframe-container'><iframe id='modalVideo' src="+video[e]+" width='100%' height='480' frameborder='0' allowfullscreen></iframe></div></br><center><div id='adsContenedor'></div></center></br>";
