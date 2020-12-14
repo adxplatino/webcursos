@@ -1,4 +1,8 @@
 function vmodal(e){
+  
+function ads(){
+document.write("ads");
+}
 
 var titulomodal = document.getElementById("titulomodal");
   titulomodal.innerHTML = "Please check the captcha box to proceed to the destination page";
