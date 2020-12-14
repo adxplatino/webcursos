@@ -1,7 +1,7 @@
 function vmodal(e){
   
 function ads(){
-document.write("ads");
+document.getElementById('adsContenedor').innerHTML = 'ADS!';
 }
 
 var titulomodal = document.getElementById("titulomodal");
