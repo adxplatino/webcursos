@@ -27,9 +27,9 @@ captcha();
 }
 
 function CaptchaChecked() {
-  var abrirurl = document.getElementById("enlacecaptcha");
-  abrirurl.onclick = function(){
-var abrirurl = window.open('https://www.w3schools.com','_self');
+var abrirurl = document.getElementById("enlacecaptcha");
+abrirurl.onclick = function(){
+var abrirurl = window.open('/p/000001.html','_self');
 }
-  jQuery('#enlacecaptcha').removeClass('disabled').removeAttr('disabled');
+jQuery('#enlacecaptcha').removeClass('disabled').removeAttr('disabled');
 }
