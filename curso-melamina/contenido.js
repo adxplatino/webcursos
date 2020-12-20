@@ -36,6 +36,13 @@ captcha();
 function CaptchaChecked() {
 var abrirurl = document.getElementById("enlacecaptcha");
 abrirurl.onclick = function(){
+  
+var leccion = ["/",              
+"/p/contenido-curso-de-melamina-herramientas.html",
+"/p/contenido-curso-de-melamina-planos.html",
+"/p/contenido-curso-de-melamina-tecnicas.html",
+"/p/contenido-curso-de-melamina-estrategia.html"];
+  
 var abrirurl = window.open('leccion[e]','_self');
 }
 jQuery('#enlacecaptcha').removeClass('disabled').removeAttr('disabled');
