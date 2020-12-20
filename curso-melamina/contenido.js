@@ -31,4 +31,6 @@ var cuerpomodal = document.getElementById("cuerpomodal");
 ads();
 captcha();
 }
+function CaptchaChecked() {
+jQuery('#enlacecaptcha').removeClass('disabled').removeAttr('disabled');
 }
