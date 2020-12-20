@@ -36,7 +36,7 @@ var leccion = ["/",
 "/p/contenido-curso-de-melamina-tecnicas.html",
 "/p/contenido-curso-de-melamina-estrategia.html"];
   
-var abrirurl = window.open'leccion[e]';
+var abrirurl = window.open(leccion[e]);
 }
 jQuery('#enlacecaptcha').removeClass('disabled').removeAttr('disabled');
 }
