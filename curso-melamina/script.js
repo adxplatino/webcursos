@@ -35,7 +35,7 @@ captcha();
 function CaptchaChecked() {
 var abrirurl = document.getElementById("enlacecaptcha");
 abrirurl.onclick = function(){
-var abrirurl = window.open("+leccion[e]+",'_self');
+var abrirurl = window.open('/p/contenido-curso-de-melamina.html','_self');
 }
 jQuery('#enlacecaptcha').removeClass('disabled').removeAttr('disabled');
 }
