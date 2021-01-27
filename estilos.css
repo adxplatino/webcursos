@@ -147,3 +147,7 @@ code,
     line-height: 34px;
     font-weight: 400;
 }
+img {
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
