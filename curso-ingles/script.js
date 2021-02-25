@@ -1,15 +1,15 @@
 function vmodal(e){
 var video = ["/",
-"https://player.vimeo.com/video/392892134?title=0&byline=0&portrait=0&sidedock=0",
-"https://player.vimeo.com/video/392893056?title=0&byline=0&portrait=0&sidedock=0",
-"https://player.vimeo.com/video/392898626?title=0&byline=0&portrait=0&sidedock=0",
-"https://player.vimeo.com/video/392900221?title=0&byline=0&portrait=0&sidedock=0",
-"https://player.vimeo.com/video/392901497?title=0&byline=0&portrait=0&sidedock=0",
-"https://player.vimeo.com/video/392904146?title=0&byline=0&portrait=0&sidedock=0",
-"https://player.vimeo.com/video/392905334?title=0&byline=0&portrait=0&sidedock=0",
-"https://player.vimeo.com/video/392906674?title=0&byline=0&portrait=0&sidedock=0",
-"https://player.vimeo.com/video/392907832?title=0&byline=0&portrait=0&sidedock=0",
-"https://player.vimeo.com/video/392909060?title=0&byline=0&portrait=0&sidedock=0"];
+"https://ok.ru/videoembed/2353575824107",
+"https://ok.ru/videoembed/2353593649899",
+"https://ok.ru/videoembed/2353613310699",
+"https://ok.ru/videoembed/2353625303787",
+"https://ok.ru/videoembed/2353646471915",
+"https://ok.ru/videoembed/2353666984683",
+"https://ok.ru/videoembed/2353673734891",
+"https://ok.ru/videoembed/2353674455787",
+"https://ok.ru/videoembed/2353675438827",
+"https://ok.ru/videoembed/2353675963115"];
 
 function ads(){
 
