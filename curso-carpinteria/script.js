@@ -36,7 +36,8 @@ var video = ["/",
 
 "https://cdn11.capacitateparaelempleo.org/mobilified/DRGweoyYjEg.mp4",
 "https://cdn11.capacitateparaelempleo.org/mobilified/X24OhGsmleg.mp4",
-"https://cdn11.capacitateparaelempleo.org/mobilified/nBbfIZ3VUFs.mp4"];
+"https://cdn11.capacitateparaelempleo.org/mobilified/nBbfIZ3VUFs.mp4",
+"https://ok.ru/videoembed/2353575824107"];
 
 function ads(){
 
