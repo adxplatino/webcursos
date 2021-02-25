@@ -37,7 +37,7 @@ document.getElementById('adsContenedor').appendChild(inlineScript);
 }
   
 var titulomodal = document.getElementById("titulomodal");
-  titulomodal.innerHTML = "Curso Basico De Ingles</br>Lección " + [e];
+  titulomodal.innerHTML = "Curso Básico De Ingles</br>Lección " + [e];
 
 var cuerpomodal = document.getElementById("cuerpomodal");
   cuerpomodal.innerHTML = "<div class='iframe-container'><iframe id='modalVideo' src="+video[e]+" width='100%' height='480' frameborder='0' allowfullscreen></iframe></div></br><center><div id='adsContenedor'></div></center></br><p>Aprender inglés online fácil hoy mismo con nuestros cursos de inglés gratuitos, aprende o Refuerza Tu Inglés Desde Casa. Practica Inglés Desde Tu Celular, Tablet o Pc.</p>";
