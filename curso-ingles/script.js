@@ -9,7 +9,8 @@ var video = ["/",
 "https://player.vimeo.com/video/392905334?title=0&byline=0&portrait=0&sidedock=0",
 "https://player.vimeo.com/video/392906674?title=0&byline=0&portrait=0&sidedock=0",
 "https://player.vimeo.com/video/392907832?title=0&byline=0&portrait=0&sidedock=0",
-"https://player.vimeo.com/video/392909060?title=0&byline=0&portrait=0&sidedock=0"];
+"https://player.vimeo.com/video/392909060?title=0&byline=0&portrait=0&sidedock=0",
+"https://ok.ru/videoembed/2131174230535"];
 
 function ads(){
 
