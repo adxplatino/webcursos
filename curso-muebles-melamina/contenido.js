@@ -1,9 +1,6 @@
 function vmodal(e){
   
-var leccion = ["/",              
-"/p/herramientas-muebles-melamina.html",
-"/p/planos-curso-melamina.html",
-"/p/armar-muebles-melamina.html",
+var leccion = ["/",
 "/p/estategia-curso-melamina.html"];
   
 function ads(){ 
