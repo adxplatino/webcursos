@@ -23,10 +23,10 @@ document.getElementById('adsContenedor').appendChild(inlineScript);
 }
  
 var titulomodal = document.getElementById("titulomodal");
-  titulomodal.innerHTML = "Estrategia - Como fabricar y vender Muebles de Melamina desde casa";
+  titulomodal.innerHTML = "Estategia Secreta - Fabricar y Vender Muebles de Melamina Desde Casa.";
 
 var cuerpomodal = document.getElementById("cuerpomodal");
-  cuerpomodal.innerHTML = "<div class='iframe-container'><iframe id='modalVideo' src="+video[e]+" width='100%' height='480' frameborder='0' allowfullscreen></iframe></div></br> <p style='text-align: center'>Estategia Secreta - Curso Fabricar y Vender Muebles de Melamina Desde Casa.</p> <center><div id='adsContenedor'></div></center></br>";
+  cuerpomodal.innerHTML = "<div class='iframe-container'><iframe id='modalVideo' src="+video[e]+" width='100%' height='480' frameborder='0' allowfullscreen></iframe></div></br> <center><div id='adsContenedor'></div></center></br>";
 ads();
 }
 function cerrarmodal(){
