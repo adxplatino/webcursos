@@ -33,7 +33,7 @@ document.getElementById('captchascript').appendChild(inlineScript);
 }
 
 var titulomodal = document.getElementById("titulomodal");
-  titulomodal.innerHTML = "Please check the captcha box to proceed to the destination page";
+  titulomodal.innerHTML = "Por favor complete el captcha para continuar";
 
 var cuerpomodal = document.getElementById("cuerpomodal");
   cuerpomodal.innerHTML = "<div style='margin: 10px 0 10px 0;position: relative;'><div style='text-align: center;'><div class='g-recaptcha m-2' style='display: inline-block;' data-sitekey='6LeYowYaAAAAAB97jxMiic4E6kwBWjD3_Zvxdmin' data-callback='CaptchaChecked'></div></div></div> </br> <p style='text-align: center'>Curso GRATIS: Como Fabricar y Vender Muebles de Melamina Desde Casa.</p> <center><div id='adsContenedor'></div></center></br> <div style='text-align: center;'><button class='btn btn-outline-primary btn-captcha m-2 disabled' id='enlacecaptcha' disabled='disabled'>Continuar →</button></div></br><div id='captchascript'></div>";
