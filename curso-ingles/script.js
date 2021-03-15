@@ -40,7 +40,7 @@ var titulomodal = document.getElementById("titulomodal");
   titulomodal.innerHTML = "Curso Básico De Ingles</br>Lección " + [e];
 
 var cuerpomodal = document.getElementById("cuerpomodal");
-  cuerpomodal.innerHTML = "<div class='iframe-container'><iframe id='modalVideo' src="+video[e]+" width='100%' height='480' frameborder='0' allowfullscreen></iframe></div></br><p>Aprenda inglés online fácil hoy mismo con este curso de inglés gratuito.</p><center><div id='adsContenedor'></div></center></br>";
+  cuerpomodal.innerHTML = "<div class='iframe-container'><iframe id='modalVideo' src="+video[e]+" width='100%' height='480' frameborder='0' allowfullscreen></iframe></div></br><p style='text-align: center'>Aprenda inglés online fácil hoy mismo con este curso de inglés gratuito.</p><center><div id='adsContenedor'></div></center></br>";
 ads();
 }
 function cerrarmodal(){
