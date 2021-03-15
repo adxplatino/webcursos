@@ -70,7 +70,7 @@ titulomodal.innerHTML = "CURSO DE CARPINTERIA</br>LECCIÓN " + [e];
 var player = jwplayer('cuerpomodal').setup({file: video[e] });
 
 var adsmodal = document.getElementById("adsmodal");
-  adsmodal.innerHTML = "<br /><center><div id='adsContenedor'></div></center><br />";
+  adsmodal.innerHTML = "<br /><p style='text-align: center'>Curso de carpintería desde cero.</p> <center><div id='adsContenedor'></div></center><br />";
     
 ads();
 }
