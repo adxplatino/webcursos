@@ -57,7 +57,7 @@ var linkplano = ["/",
  
 
  
-var abrirurl = window.open(linkplano[e],'_self');
+var abrirurl = window.open(+linkplano[e]+,'_self');
 }
 jQuery('#enlacecaptcha').removeClass('disabled').removeAttr('disabled');
 }
