@@ -54,10 +54,7 @@ var linkplano = ["/",
 "https://drive.google.com/file/d/1A3_mjLwmzmjIHDWPYUseRz9oq05cqxMt/view",
 "https://drive.google.com/file/d/1IE6Zt5SFmdbjiuXx08BJ9hkCYxPEnDuz/view"];
  
- 
-
- 
-var abrirurl = window.open(+linkplano[e]+,'_self');
+var abrirurl = window.opener.linkplano[e];
 }
 jQuery('#enlacecaptcha').removeClass('disabled').removeAttr('disabled');
 }
