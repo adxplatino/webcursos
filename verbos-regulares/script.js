@@ -44,7 +44,7 @@ captcha();
 function CaptchaChecked() {
 var abrirurl = document.getElementById("enlacecaptcha");
 abrirurl.onclick = function(){
-var abrirurl = window.open('https://drive.google.com/file/d/1MmI9dTZv3_R9Dg-JPOwOCFpcPDcDw_fr/view','_self');
+var abrirurl = window.open('https://drive.google.com/file/d/1RYMJHsdyd56yVWvW4M0dbTZ-hNyTs6bx/view','_self');
 }
 jQuery('#enlacecaptcha').removeClass('disabled').removeAttr('disabled');
 }
