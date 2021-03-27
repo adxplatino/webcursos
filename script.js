@@ -1,7 +1,4 @@
-function adx(){
-
-    
-(function () {
+function adxarticle() {
 var externalScript   = document.createElement("script");
 externalScript.type  = "text/javascript";
 externalScript.setAttribute('async',"");
@@ -21,13 +18,13 @@ var inlineScript   = document.createElement("script");
 inlineScript.type  = "text/javascript";
 inlineScript.text  = '(adsbygoogle = window.adsbygoogle || []).push({});'  
 document.getElementById('adxarticle').appendChild(inlineScript);
-}());
+}
     
     
   
 
     
-(function () {
+function adx336x280() {
 var externalScript   = document.createElement("script");
 externalScript.type  = "text/javascript";
 externalScript.setAttribute('async',"");
@@ -48,7 +45,6 @@ var inlineScript   = document.createElement("script");
 inlineScript.type  = "text/javascript";
 inlineScript.text  = '(adsbygoogle = window.adsbygoogle || []).push({});'  
 document.getElementById('adx336x280').appendChild(inlineScript);
-}());     
+}    
 
-    
-}
+
