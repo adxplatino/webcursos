@@ -1,4 +1,6 @@
-function adxarticle() {
+function adx() {
+
+(function () {
 var externalScript   = document.createElement("script");
 externalScript.type  = "text/javascript";
 externalScript.setAttribute('async',"");
@@ -18,13 +20,10 @@ var inlineScript   = document.createElement("script");
 inlineScript.type  = "text/javascript";
 inlineScript.text  = '(adsbygoogle = window.adsbygoogle || []).push({});'  
 document.getElementById('adxarticle').appendChild(inlineScript);
-}
-    
-    
-  
+}()); 
 
-    
-function adx336x280() {
+
+(function () {
 var externalScript   = document.createElement("script");
 externalScript.type  = "text/javascript";
 externalScript.setAttribute('async',"");
@@ -45,6 +44,9 @@ var inlineScript   = document.createElement("script");
 inlineScript.type  = "text/javascript";
 inlineScript.text  = '(adsbygoogle = window.adsbygoogle || []).push({});'  
 document.getElementById('adx336x280').appendChild(inlineScript);
-}    
-
-
+}()); 
+    
+    
+}
+    
+    
