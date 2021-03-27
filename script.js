@@ -32,7 +32,7 @@ externalScript.src = "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
 document.getElementById('adxadap').appendChild(externalScript);
 
 var comment = document.createComment(" infocursos_adap_jul ");
-document.getElementById('adx336x280').appendChild(comment);
+document.getElementById('adxadap').appendChild(comment);
 
 var ins   = document.createElement("ins");
 ins.setAttribute('class','adsbygoogle');
