@@ -15,7 +15,7 @@ externalScript.type  = "text/javascript";
 externalScript.setAttribute('async',"");
 externalScript.src = "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
 document.getElementById('adsContenedor').appendChild(externalScript);
-var comment = document.createComment(" infocursos-300x250 ");
+var comment = document.createComment(" infoproyectos_300x250 ");
 document.getElementById('adsContenedor').appendChild(comment);
 var ins   = document.createElement("ins");
 ins.setAttribute('class','adsbygoogle');
