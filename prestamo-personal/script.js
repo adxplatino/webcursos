@@ -6,7 +6,7 @@ externalScript.type  = "text/javascript";
 externalScript.setAttribute('async',"");
 externalScript.src = "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
 document.getElementById('adsContenedor').appendChild(externalScript);
-var comment = document.createComment(" infocursos-300x250 ");
+var comment = document.createComment(" infoproyectos_300x250 ");
 document.getElementById('adsContenedor').appendChild(comment);
 var ins   = document.createElement("ins");
 ins.setAttribute('class','adsbygoogle');
@@ -19,8 +19,6 @@ inlineScript.type  = "text/javascript";
 inlineScript.text  = '(adsbygoogle = window.adsbygoogle || []).push({});'  
 document.getElementById('adsContenedor').appendChild(inlineScript); 
 }
-  
-  
 function captcha(){
 var externalScript   = document.createElement("script");
 externalScript.type  = "text/javascript";
@@ -31,7 +29,6 @@ var inlineScript   = document.createElement("script");
 inlineScript.type  = "text/javascript";  
 document.getElementById('captchascript').appendChild(inlineScript); 
 }
-
 var titulomodal = document.getElementById("titulomodal");
   titulomodal.innerHTML = "Por favor complete el captcha para continuar";
 
@@ -40,7 +37,6 @@ var cuerpomodal = document.getElementById("cuerpomodal");
 ads();
 captcha();
 }
-
 function CaptchaChecked() {
 var abrirurl = document.getElementById("enlacecaptcha");
 abrirurl.onclick = function(){
