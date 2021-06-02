@@ -27,8 +27,7 @@ var inlineScript   = document.createElement("script");
 inlineScript.type  = "text/javascript";
 inlineScript.text  = '(adsbygoogle = window.adsbygoogle || []).push({});'  
 document.getElementById('adsContenedor').appendChild(inlineScript); 
-}
-  
+} 
 function captcha(){
 var externalScript   = document.createElement("script");
 externalScript.type  = "text/javascript";
@@ -39,7 +38,6 @@ var inlineScript   = document.createElement("script");
 inlineScript.type  = "text/javascript";  
 document.getElementById('captchascript').appendChild(inlineScript); 
 }
-
 var titulomodal = document.getElementById("titulomodal");
   titulomodal.innerHTML = "Por favor complete el captcha para continuar";
 
