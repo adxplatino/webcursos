@@ -24,6 +24,6 @@ var titulomodal = document.getElementById("titulomodal");
   titulomodal.innerHTML = "Por favor comparte la publicacion para continuar";
 
 var cuerpomodal = document.getElementById("cuerpomodal");
-  cuerpomodal.innerHTML = "<div id='chest' data-seri='contenido_bloqueado'><h2 class='content-hint'>Compartir para desbloquear la descarga</h2><div style='text-align: center;'><a class='btn btn-outline-secondary' href='https://drive.google.com/file/d/1nIqExY9VXxB8_oE_T5Zad6_Xb40wlOJo/view' target='_blank'>DESCARGAR</a></div></br></div></br> <p style='text-align: center'>200 Planos y Proyectos Carpinteria Gratis – PDF | Planos de carpintería.</p> <center><div id='adsContenedor'></div></center></br> ";
+  cuerpomodal.innerHTML = "<p style='text-align: center'>200 Planos y Proyectos Carpinteria Gratis – PDF | Planos de carpintería.</p> <center><div id='adsContenedor'></div></center></br> ";
 ads();
 }
