@@ -24,6 +24,6 @@ var titulomodal = document.getElementById("titulomodal");
   titulomodal.innerHTML = "Por favor comparte la publicacion para continuar";
 
 var cuerpomodal = document.getElementById("cuerpomodal");
-  cuerpomodal.innerHTML = "<p style='text-align: center'>200 Planos y Proyectos Carpinteria Gratis – PDF | Planos de carpintería.</p> <center><div id='adsContenedor'></div></center></br> ";
+  cuerpomodal.innerHTML = "<center><div id='adsContenedor'></div></center></br>";
 ads();
 }
