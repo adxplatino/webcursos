@@ -33,7 +33,7 @@ document.getElementById('captchascript').appendChild(inlineScript);
 }
 
 var titulomodal = document.getElementById("titulomodal");
-  titulomodal.innerHTML = "Por favor complete el captcha para continuar";
+  titulomodal.innerHTML = "Please complete the captcha to continue";
 
 var cuerpomodal = document.getElementById("cuerpomodal");
   cuerpomodal.innerHTML = "<div style='margin: 10px 0 10px 0;position: relative;'><div style='text-align: center;'><div class='g-recaptcha m-2' style='display: inline-block;' data-sitekey='6LeYowYaAAAAAB97jxMiic4E6kwBWjD3_Zvxdmin' data-callback='CaptchaChecked'></div></div></div> </br> <p style='text-align: center'>Manual Gratuito PDF  - Tecnicas y Trucos Para Soldar y Desoldar Componentes Electronicos</p> <center><div id='adsContenedor'></div></center></br> <div style='text-align: center;'><button class='btn btn-primary' style='width: 300px;' btn-captcha m-2 disabled' id='enlacecaptcha' disabled='disabled'><i class='fas fa-cloud-download-alt'></i> Download</button></div></br><div id='captchascript'></div>";
