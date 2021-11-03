@@ -43,7 +43,7 @@ captcha();
 function CaptchaChecked() {
 var abrirurl = document.getElementById("enlacecaptcha");
 abrirurl.onclick = function(){
-var abrirurl = window.open('https://drive.google.com/file/d/142ZM0B6-7LowsVtZFpIX0Ib07IYOOxp5','_self');
+var abrirurl = window.open('https://drive.google.com/file/d/1ry6YExG4GUX5YA66bvWyPZhsWPdbB01u','_self');
 }
 jQuery('#enlacecaptcha').removeClass('disabled').removeAttr('disabled');
 }
