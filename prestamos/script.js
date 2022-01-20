@@ -25,13 +25,16 @@ inlineScript.text  = '(adsbygoogle = window.adsbygoogle || []).push({});'
 document.getElementById('adsContenedor').appendChild(inlineScript); 
 }
  
-var titulomodal = document.getElementById("titulomodal");
-  titulomodal.innerHTML = "CURSO EXCEL</br>LECCIÓN " + [e];
-
 var cuerpomodal = document.getElementById("cuerpomodal");
-  cuerpomodal.innerHTML = "<div class='iframe-container'><iframe id='modalVideo' src="+video[e]+" width='100%' height='480' frameborder='0' allowfullscreen></iframe></div></br><center><div id='adsContenedor'></div></center></br>";
+  cuerpomodal.innerHTML = "<div style='margin: 10px 0 10px 0;position: relative;'><div style='text-align: center;'><div class='g-recaptcha m-2' style='display: inline-block;' data-sitekey='6LeYowYaAAAAAB97jxMiic4E6kwBWjD3_Zvxdmin' data-callback='CaptchaChecked'></div></div></div> </br> <p style='text-align: center'>Ver videos online</p> <center><div id='adsContenedor'></div></center></br> <div style='text-align: center;'><button class='btn btn-primary' style='width: 300px;' btn-captcha m-2 disabled' id='enlacecaptcha' disabled='disabled'><i class='fab fa-youtube'></i> VER VIDEO EN EL BOTON</button></div></br><div id='captchascript'></div>";
 ads();
+captcha();
 }
-function cerrarmodal(){
-  $("#modalVideo").attr('src', '');
+
+function CaptchaChecked() {
+var abrirurl = document.getElementById("enlacecaptcha");
+abrirurl.onclick = function(){
+var abrirurl = window.open('video[e]','_self');
+}
+jQuery('#enlacecaptcha').removeClass('disabled').removeAttr('disabled');
 }
