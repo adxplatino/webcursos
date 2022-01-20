@@ -1,6 +1,6 @@
 function vmodal(e){
 
-iraurl = ["/",
+var iraurl = ["/",
 "https://www.instacredit.gt",
 "https://micoopeguadalupana.com.gt/servicio/necesito-un-prestamo",
 "https://finca.gt/solicitar-un-credito",
