@@ -1,9 +1,9 @@
 function vmodal(e){
 var video = ["/",
-"https://drive.google.com/file/d/1bFOpc6dLzaIqNIIb8ke8SXIR0_RpC91l/preview",
-"https://drive.google.com/file/d/1_nS9NFiesso7uOnPCiZlM_EXss-p7hxx/preview",
-"https://drive.google.com/file/d/1mx25EAHAY8m6qv0PLdi3pXWQlA3XU4P3/preview",
-"https://drive.google.com/file/d/153LtCVSZDwKZ2bMBw-P1efkzqbxfzj2Z/preview"];
+"https://www.instacredit.gt",
+"https://micoopeguadalupana.com.gt/servicio/necesito-un-prestamo",
+"https://finca.gt/solicitar-un-credito",
+"https://www.multimoney.com/gt/solicita-tu-credito"];
  
 function ads(){
 var externalScript   = document.createElement("script");
