@@ -50,7 +50,7 @@ var urlprestamo = ["/",
 "https://finca.gt/solicitar-un-credito",
 "https://www.multimoney.com/gt/solicita-tu-credito"];
  
-var abrirurl = window.open('urlprestamo[e]','_self');
+var abrirurl = window.open('+urlprestamo[e]+','_self');
 }
 jQuery('#enlacecaptcha').removeClass('disabled').removeAttr('disabled');
 }
