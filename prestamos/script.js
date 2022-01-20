@@ -1,9 +1,4 @@
 function vmodal(e){
-var video = ["/",
-"https://www.instacredit.gt",
-"https://micoopeguadalupana.com.gt/servicio/necesito-un-prestamo",
-"https://finca.gt/solicitar-un-credito",
-"https://www.multimoney.com/gt/solicita-tu-credito"];
  
 function ads(){
 var externalScript   = document.createElement("script");
@@ -48,7 +43,14 @@ captcha();
 function CaptchaChecked() {
 var abrirurl = document.getElementById("enlacecaptcha");
 abrirurl.onclick = function(){
-var abrirurl = window.open(video[e],'_self');
+ 
+var urlprestamo = ["/",
+"https://www.instacredit.gt",
+"https://micoopeguadalupana.com.gt/servicio/necesito-un-prestamo",
+"https://finca.gt/solicitar-un-credito",
+"https://www.multimoney.com/gt/solicita-tu-credito"];
+ 
+var abrirurl = window.open('urlprestamo[e]','_self');
 }
 jQuery('#enlacecaptcha').removeClass('disabled').removeAttr('disabled');
 }
