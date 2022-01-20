@@ -50,4 +50,5 @@ function CaptchaChecked() {
 var abrirurl = document.getElementById("enlacecaptcha");
 
 jQuery('#enlacecaptcha').removeClass('disabled');
+jQuery('#enlacecaptcha').addClass('active');
 }
