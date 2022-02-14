@@ -47,6 +47,6 @@ var abrirurl = window.open('https://drive.google.com/file/d/1RY8SzQovsIOY4yzxi2q
 }
 
 var element = document.getElementById('enlacecaptcha');
-element.classList.remove("disabled");
+element.classList.remove('disabled');
 
 }
