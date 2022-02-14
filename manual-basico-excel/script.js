@@ -45,5 +45,5 @@ var abrirurl = document.getElementById("enlacecaptcha");
 abrirurl.onclick = function(){
 var abrirurl = window.open('https://drive.google.com/file/d/1RY8SzQovsIOY4yzxi2q6n6ttAB93oneR','_self');
 }
-$('enlacecaptcha).removeClass.removeClass('disabled').removeAttr('disabled');
+$('enlacecaptcha).removeClass('disabled').removeAttr('disabled');
 }
