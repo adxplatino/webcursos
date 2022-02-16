@@ -1,6 +1,6 @@
 function admodal(e){
   
- var iraurl = ["/",
+ var iraurl1 = ["/",
 "https://www.usnews.com/best-graduate-schools/top-business-schools/stanford-university-01028",
 "https://www.usnews.com/best-graduate-schools/top-business-schools/university-of-pennsylvania-01194",
 "https://www.usnews.com/best-graduate-schools/top-business-schools/university-of-chicago-01073",
@@ -11,7 +11,7 @@ function admodal(e){
  
 "https://www.usnews.com/education/best-colleges/paying-for-college/articles/a-guide-to-scholarships-for-international-students"];
   
-function ads(){
+function ads1(){
 var externalScript   = document.createElement("script");
 externalScript.type  = "text/javascript";
 externalScript.setAttribute('async',"");
@@ -31,7 +31,7 @@ inlineScript.text  = '(adsbygoogle = window.adsbygoogle || []).push({});'
 document.getElementById('adsContenedor').appendChild(inlineScript); 
 }  
   
-function captcha(){
+function captcha1(){
 var externalScript   = document.createElement("script");
 externalScript.type  = "text/javascript";
 externalScript.setAttribute('async',"");
@@ -42,18 +42,18 @@ inlineScript.type  = "text/javascript";
 document.getElementById('captchascript').appendChild(inlineScript); 
 }
 
-var titulomodal = document.getElementById("titulomodal1");
+var titulomodal1 = document.getElementById("titulomodal1");
   titulomodal.innerHTML = "Please complete the captcha to continue";
 
-var cuerpomodal = document.getElementById("cuerpomodal1");
-  cuerpomodal.innerHTML = "<div style='margin: 10px 0 10px 0;position: relative;'><div style='text-align: center;'><div class='g-recaptcha m-2' style='display: inline-block;' data-sitekey='6LeYowYaAAAAAB97jxMiic4E6kwBWjD3_Zvxdmin' data-callback='CaptchaChecked'></div></div></div> </br> <p style='text-align: center'>Top Business Schools</p> <center><div id='adsContenedor'></div></center></br> <div style='text-align: center;'><a href="+iraurl[e]+" target='_blank' rel='nofollow' class='btn btn-primary disabled' style='width: 300px;' role='button' id='enlacecaptcha'>Continuar</a></div></br><div id='captchascript'></div>";
-ads();
-captcha();
+var cuerpomodal1 = document.getElementById("cuerpomodal1");
+  cuerpomodal.innerHTML = "<div style='margin: 10px 0 10px 0;position: relative;'><div style='text-align: center;'><div class='g-recaptcha m-2' style='display: inline-block;' data-sitekey='6LeYowYaAAAAAB97jxMiic4E6kwBWjD3_Zvxdmin' data-callback='CaptchaChecked1'></div></div></div> </br> <p style='text-align: center'>Top Business Schools</p> <center><div id='adsContenedor1'></div></center></br> <div style='text-align: center;'><a href="+iraurl1[e]+" target='_blank' rel='nofollow' class='btn btn-primary disabled' style='width: 300px;' role='button' id='enlacecaptcha1'>Continuar</a></div></br><div id='captchascript'></div>";
+ads1();
+captcha1();
 }
 
-function CaptchaChecked() {
-var abrirurl = document.getElementById("enlacecaptcha");
+function CaptchaChecked1() {
+var abrirurl1 = document.getElementById("enlacecaptcha1");
 
-jQuery('#enlacecaptcha').removeClass('disabled');
-jQuery('#enlacecaptcha').addClass('active');
+jQuery('#enlacecaptcha1').removeClass('disabled');
+jQuery('#enlacecaptcha1').addClass('active');
 }
