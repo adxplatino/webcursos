@@ -1,4 +1,4 @@
-function vmodal(e){
+function admodal(e){
   
  var iraurl = ["/",
 "https://www.usnews.com/best-graduate-schools/top-business-schools/stanford-university-01028",
