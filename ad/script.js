@@ -9,7 +9,7 @@ function vmodal(e){
 "https://www.infoproyectos.com/p/harvard-university.html",
 "https://www.infoproyectos.com/p/massachusetts-institute-of-technology.html",
  
-"https://www.infoproyectos.com/p/mba-business-schools-rankings.html"];
+"https://www.infoproyectos.com/p/usa-scholarships.html"];
   
 function ads(){
 var externalScript   = document.createElement("script");
