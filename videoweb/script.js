@@ -1,24 +1,4 @@
 function vmodal(e){
- 
-function ads(){
-var externalScript   = document.createElement("script");
-externalScript.type  = "text/javascript";
-externalScript.setAttribute('async',"");
-externalScript.src = "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
-document.getElementById('adsContenedor').appendChild(externalScript);
-var comment = document.createComment(" 300x250_updolink ");
-document.getElementById('adsContenedor').appendChild(comment);
-var ins   = document.createElement("ins");
-ins.setAttribute('class','adsbygoogle');
-ins.setAttribute('data-ad-client','ca-pub-6799779205978679');
-ins.setAttribute('data-ad-slot','4978539521');
-ins.setAttribute('style','display:inline-block;width:300px;height:250px');
-document.getElementById('adsContenedor').appendChild(ins);
-var inlineScript   = document.createElement("script");
-inlineScript.type  = "text/javascript";
-inlineScript.text  = '(adsbygoogle = window.adsbygoogle || []).push({});'  
-document.getElementById('adsContenedor').appendChild(inlineScript); 
-}
   
 function captcha(){
 var externalScript   = document.createElement("script");
