@@ -1,6 +1,24 @@
 function vmodal(e){
  
-
+function ads(){
+var externalScript   = document.createElement("script");
+externalScript.type  = "text/javascript";
+externalScript.setAttribute('async',"");
+externalScript.src = "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
+document.getElementById('adsContenedor').appendChild(externalScript);
+var comment = document.createComment(" infoproyectos_300x250 ");
+document.getElementById('adsContenedor').appendChild(comment);
+var ins   = document.createElement("ins");
+ins.setAttribute('class','adsbygoogle');
+ins.setAttribute('data-ad-client','ca-pub-6278983531888232');
+ins.setAttribute('data-ad-slot','9029296375');
+ins.setAttribute('style','display:inline-block;width:300px;height:250px');
+document.getElementById('adsContenedor').appendChild(ins);
+var inlineScript   = document.createElement("script");
+inlineScript.type  = "text/javascript";
+inlineScript.text  = '(adsbygoogle = window.adsbygoogle || []).push({});'  
+document.getElementById('adsContenedor').appendChild(inlineScript); 
+}
   
 function captcha(){
 var externalScript   = document.createElement("script");
@@ -17,15 +35,45 @@ var titulomodal = document.getElementById("titulomodal");
   titulomodal.innerHTML = "Please complete the captcha to continue";
 
 var cuerpomodal = document.getElementById("cuerpomodal");
-  cuerpomodal.innerHTML = "<div style='margin: 10px 0 10px 0;position: relative;'><div style='text-align: center;'><div class='g-recaptcha m-2' style='display: inline-block;' data-sitekey='6LeYowYaAAAAAB97jxMiic4E6kwBWjD3_Zvxdmin' data-callback='CaptchaChecked'></div></div></div> </br> <p style='text-align: center'>Manual de instalación para tableros eléctricos</p> <center><div id='adsContenedor'></div></center></br> <div style='text-align: center;'><button class='btn btn-primary' style='width: 300px;' btn-captcha m-2 disabled' id='enlacecaptcha' disabled='disabled'><i class='fas fa-cloud-download-alt'></i> CONTINUE</button></div></br><div id='captchascript'></div>";
-
+  cuerpomodal.innerHTML = "<div style='margin: 10px 0 10px 0;position: relative;'><div style='text-align: center;'><div class='g-recaptcha m-2' style='display: inline-block;' data-sitekey='6LeYowYaAAAAAB97jxMiic4E6kwBWjD3_Zvxdmin' data-callback='CaptchaChecked'></div></div></div> </br> <p style='text-align: center'>Ver Video</p> <center><div id='adsContenedor'></div></center></br> <div style='text-align: center;'><button class='btn btn-primary' style='width: 300px;' btn-captcha m-2 disabled' id='enlacecaptcha' disabled='disabled'>CONTINUE ▶</button></div></br><div id='captchascript'></div>";
+ads();
 captcha();
 }
 
 function CaptchaChecked() {
 var abrirurl = document.getElementById("enlacecaptcha");
-abrirurl.onclick = function(){
-document.getElementById("mimodal").innerHTML = "";
-}
 jQuery('#enlacecaptcha').removeClass('disabled').removeAttr('disabled');
+  
+abrirurl.onclick = function(){
+var titulomodal = document.getElementById("titulomodal");
+  titulomodal.innerHTML = "Wait a moment";
+  
+var cuerpomodal = document.getElementById("cuerpomodal");
+  cuerpomodal.innerHTML = "<div class='link-area'><div class='container'><div class='row'><div class='col-md-12 col-sm-12'><div class='contents text-center animated fadeIn' id='continue_wrapper'><div class='head-title'>Ahorra 40% en tu factura eléctrica aplicando este simple truco!</div><div class='header-button'><span class='btn btn-common btn-sm' id='link_button'></span></div></div></div></div></div></div>";
+ads();
+  
+let time_out = 1000; // 1 seconds
+let counter_id;
+let seconds = 10;
+
+        
+counter_id = setInterval(update_counter_link, time_out);
+        
+
+function update_counter_link() {
+document.getElementById('link_button').innerHTML = 'Ver video en: ' + (--seconds);
+            if (!seconds) {
+                clearInterval(counter_id);
+                document.getElementById("link_button").innerHTML = '<a rel="nofollow noreferrer" target="_blank" class="a-link" href="https://www.youtube.com/watch?v=86dnJcN_xk4">VER EL VIDEO AQUÍ</a>';
+                document.getElementById("link_button").style.cursor = 'default';
+            }
+        }
+
+        document.getElementById('link_button').innerHTML = 'Ver video en: ' + seconds;
+  
+}
+
+
+  
+
 }
