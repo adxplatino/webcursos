@@ -45,12 +45,35 @@ var abrirurl = document.getElementById("enlacecaptcha");
 jQuery('#enlacecaptcha').removeClass('disabled').removeAttr('disabled');
   
 abrirurl.onclick = function(){
+ 
+ 
+function ads2(){
+var externalScript   = document.createElement("script");
+externalScript.type  = "text/javascript";
+externalScript.setAttribute('async',"");
+externalScript.src = "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
+document.getElementById('adsContenedor2').appendChild(externalScript);
+var comment = document.createComment(" infoproyectos_300x250 ");
+document.getElementById('adsContenedor2').appendChild(comment);
+var ins   = document.createElement("ins");
+ins.setAttribute('class','adsbygoogle');
+ins.setAttribute('data-ad-client','ca-pub-6278983531888232');
+ins.setAttribute('data-ad-slot','9029296375');
+ins.setAttribute('style','display:inline-block;width:300px;height:250px');
+document.getElementById('adsContenedor2').appendChild(ins);
+var inlineScript   = document.createElement("script");
+inlineScript.type  = "text/javascript";
+inlineScript.text  = '(adsbygoogle = window.adsbygoogle || []).push({});'  
+document.getElementById('adsContenedor2').appendChild(inlineScript); 
+}
+ 
 var titulomodal = document.getElementById("titulomodal");
   titulomodal.innerHTML = "Wait a moment";
   
 var cuerpomodal = document.getElementById("cuerpomodal");
-  cuerpomodal.innerHTML = "<div class='link-area'><div class='container'><div class='row'><div class='col-md-12 col-sm-12'><div class='contents text-center animated fadeIn' id='continue_wrapper'><div class='head-title'>Ahorra 40% en tu factura eléctrica aplicando este simple truco!</div><div class='header-button'><span class='btn btn-common btn-sm' id='link_button'></span></div></div></div></div></div></div>";
-ads();
+  cuerpomodal.innerHTML = "<div class='link-area'><div class='container'><div class='row'><div class='col-md-12 col-sm-12'><div class='contents text-center animated fadeIn' id='continue_wrapper'><div class='head-title'>Ahorra 40% en tu factura eléctrica aplicando este simple truco!</div><div id='adsContenedor2'></div><div class='header-button'><span class='btn btn-primary' style='width: 300px;' id='link_button'></span></div></div></div></div></div></div>";
+
+ads2();
   
 let time_out = 1000; // 1 seconds
 let counter_id;
@@ -64,13 +87,12 @@ function update_counter_link() {
 document.getElementById('link_button').innerHTML = 'Ver video en: ' + (--seconds);
             if (!seconds) {
                 clearInterval(counter_id);
-                document.getElementById("link_button").innerHTML = '<a rel="nofollow noreferrer" target="_blank" class="a-link" href="https://www.youtube.com/watch?v=86dnJcN_xk4">VER EL VIDEO AQUÍ</a>';
+                document.getElementById("link_button").innerHTML = '<a rel="nofollow noreferrer" target="_blank" style="color: white;" href="https://www.youtube.com/watch?v=86dnJcN_xk4">VER EL VIDEO AQUÍ</a>';
                 document.getElementById("link_button").style.cursor = 'default';
             }
         }
 
         document.getElementById('link_button').innerHTML = 'Ver video en: ' + seconds;
-  
 }
 
 
