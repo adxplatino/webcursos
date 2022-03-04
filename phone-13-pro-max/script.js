@@ -35,7 +35,7 @@ var titulomodal = document.getElementById("titulomodal");
   titulomodal.innerHTML = "Please complete the captcha to continue";
 
 var cuerpomodal = document.getElementById("cuerpomodal");
-  cuerpomodal.innerHTML = "<div style='margin: 10px 0 10px 0;position: relative;'><div style='text-align: center;'><div class='g-recaptcha m-2' style='display: inline-block;' data-sitekey='6LeYowYaAAAAAB97jxMiic4E6kwBWjD3_Zvxdmin' data-callback='CaptchaChecked'></div></div></div> </br> <p style='text-align: center'>cONSEGUIR EL NUEVO IPHONE 113 PRO MAX</p> <center><div id='adsContenedor'></div></center></br> <div style='text-align: center;'><button class='btn btn-primary' style='width: 300px;' btn-captcha m-2 disabled' id='enlacecaptcha' disabled='disabled'>CONTINUE ▶</button></div></br><div id='captchascript'></div>";
+  cuerpomodal.innerHTML = "<div style='margin: 10px 0 10px 0;position: relative;'><div style='text-align: center;'><div class='g-recaptcha m-2' style='display: inline-block;' data-sitekey='6LeYowYaAAAAAB97jxMiic4E6kwBWjD3_Zvxdmin' data-callback='CaptchaChecked'></div></div></div> </br> <p style='text-align: center'>For security reasons please complete the captcha to contact the seller of the iphone 13 pro max</p> <center><div id='adsContenedor'></div></center></br> <div style='text-align: center;'><button class='btn btn-primary' style='width: 300px;' btn-captcha m-2 disabled' id='enlacecaptcha' disabled='disabled'>Continue</button></div></br><div id='captchascript'></div>";
 ads();
 captcha();
 }
@@ -68,10 +68,10 @@ document.getElementById('adsContenedor2').appendChild(inlineScript);
 }
  
 var titulomodal = document.getElementById("titulomodal");
-  titulomodal.innerHTML = "Wait a moment";
+  titulomodal.innerHTML = "Wait a moment to see the seller's information";
   
 var cuerpomodal = document.getElementById("cuerpomodal");
-  cuerpomodal.innerHTML = "<div class='link-area'><div class='container'><div class='row'><div class='col-md-12 col-sm-12'><div class='contents text-center animated fadeIn' id='continue_wrapper'></br> <p style='text-align: center'>Descubre la gama MagSafe y combina accesorios a todo color para el iPhone 13 Pro Max.</p> <center><div id='adsContenedor2'></div></center></br> <div style='text-align: center;'><span class='btn btn-primary' style='width: 300px;' id='link_button'></span></div></div></br> </div></div></div></div>";
+  cuerpomodal.innerHTML = "<div class='link-area'><div class='container'><div class='row'><div class='col-md-12 col-sm-12'><div class='contents text-center animated fadeIn' id='continue_wrapper'></br> <p style='text-align: center'>cccccc </p> <center><div id='adsContenedor2'></div></center></br> <div style='text-align: center;'><span class='btn btn-primary' style='width: 300px;' id='link_button'></span></div></div></br> </div></div></div></div>";
 
 ads2();
   
@@ -87,12 +87,12 @@ function update_counter_link() {
 document.getElementById('link_button').innerHTML = 'Ver video en: ' + (--seconds);
             if (!seconds) {
                 clearInterval(counter_id);
-                document.getElementById("link_button").innerHTML = '<a rel="nofollow noreferrer" target="_blank" style="color: white;" href="https://ebay.to/3HEqMXo">CONSEGUIR IPHONE 13 PRO MAX AQUÍ</a>';
+                document.getElementById("link_button").innerHTML = '<a rel="nofollow noreferrer" target="_blank" style="color: white;" href="https://ebay.to/3HEqMXo">Contact the seller</a>';
                 document.getElementById("link_button").style.cursor = 'default';
             }
         }
 
-        document.getElementById('link_button').innerHTML = 'Ver video en: ' + seconds;
+        document.getElementById('link_button').innerHTML = 'you will be able to see the contact information in: ' + seconds;
 }
 
 
