@@ -68,10 +68,10 @@ document.getElementById('adsContenedor2').appendChild(inlineScript);
 }
  
 var titulomodal = document.getElementById("titulomodal");
-  titulomodal.innerHTML = "Wait a moment to see the seller's information";
+  titulomodal.innerHTML = "Wait a moment...";
   
 var cuerpomodal = document.getElementById("cuerpomodal");
-  cuerpomodal.innerHTML = "<div class='link-area'><div class='container'><div class='row'><div class='col-md-12 col-sm-12'><div class='contents text-center animated fadeIn' id='continue_wrapper'></br> <p style='text-align: center'>cccccc </p> <center><div id='adsContenedor2'></div></center></br> <div style='text-align: center;'><span class='btn btn-primary' style='width: 300px;' id='link_button'></span></div></div></br> </div></div></div></div>";
+  cuerpomodal.innerHTML = "<div class='link-area'><div class='container'><div class='row'><div class='col-md-12 col-sm-12'><div class='contents text-center animated fadeIn' id='continue_wrapper'></br> <p style='text-align: center'>For security reasons please wait a moment to contact the seller of the iphone 13 pro max</p> <center><div id='adsContenedor2'></div></center></br> <div style='text-align: center;'><span class='btn btn-primary' style='width: 300px;' id='link_button'></span></div></div></br> </div></div></div></div>";
 
 ads2();
   
@@ -84,7 +84,7 @@ counter_id = setInterval(update_counter_link, time_out);
         
 
 function update_counter_link() {
-document.getElementById('link_button').innerHTML = 'Ver video en: ' + (--seconds);
+document.getElementById('link_button').innerHTML = 'Contact on: ' + (--seconds);
             if (!seconds) {
                 clearInterval(counter_id);
                 document.getElementById("link_button").innerHTML = '<a rel="nofollow noreferrer" target="_blank" style="color: white;" href="https://ebay.to/3HEqMXo">Contact the seller</a>';
@@ -92,7 +92,7 @@ document.getElementById('link_button').innerHTML = 'Ver video en: ' + (--seconds
             }
         }
 
-        document.getElementById('link_button').innerHTML = 'you will be able to see the contact information in: ' + seconds;
+        document.getElementById('link_button').innerHTML = 'Contact on: ' + seconds;
 }
 
 
