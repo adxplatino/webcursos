@@ -87,7 +87,7 @@ function update_counter_link() {
 document.getElementById('link_button').innerHTML = 'Contact on: ' + (--seconds);
             if (!seconds) {
                 clearInterval(counter_id);
-                document.getElementById("link_button").innerHTML = '<a rel="nofollow noreferrer" target="_blank" style="color: white;" href="https://ebay.to/3HEqMXo">Contact the seller</a>';
+                document.getElementById("link_button").innerHTML = '<a rel="nofollow noreferrer" target="_blank" style="color: white;" href="https://forms.gle/BqTPsaQz6Cy1qXDd7">Contact the seller</a>';
                 document.getElementById("link_button").style.cursor = 'default';
             }
         }
