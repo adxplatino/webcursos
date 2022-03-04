@@ -68,7 +68,7 @@ document.getElementById('adsContenedor2').appendChild(inlineScript);
 }
  
 var titulomodal = document.getElementById("titulomodal");
-  titulomodal.innerHTML = "<img class='mx-auto d-block mr-3' src='http://www.kengurupro.cl/assets/img/general/cargando.gif' style='height: 64px; width: 64px;'/>";
+  titulomodal.innerHTML = "<img class='mx-auto d-block mr-3' src='https://blogger.googleusercontent.com/img/a/AVvXsEgP7uV95Q8ISOdvjP4rc5ZPv7NQTmDT6bTEHjdI1TonUzI62CFeD3RiWdyQRy_XnFKuu7uQEI0jR0B0HHaOJa-N1WngBg7nE8KOoWrdWzePZHm_LiPDfmCCg-kI4sV4UZmPQC6J4tfD-maY2V8Rev2IFtkRsdfzFP-OzQ4iManY4hK8-VEKquP_hrGAVw' style='height: 30px;'/>";
   
 var cuerpomodal = document.getElementById("cuerpomodal");
   cuerpomodal.innerHTML = "<div class='link-area'><div class='container'><div class='row'><div class='col-md-12 col-sm-12'><div class='contents text-center animated fadeIn' id='continue_wrapper'></br> <p style='text-align: center'>For security reasons please wait a moment to contact the iphone's seller</p> <center><div id='adsContenedor2'></div></center></br> <div style='text-align: center;'><span class='btn btn-primary' style='width: 300px;' id='link_button'></span></div></div></br> </div></div></div></div>";
