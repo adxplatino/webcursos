@@ -87,7 +87,7 @@ function update_counter_link() {
 document.getElementById('link_button').innerHTML = 'Video en: ' + (--seconds);
             if (!seconds) {
                 clearInterval(counter_id);
-                document.getElementById("link_button").innerHTML = '<a rel="nofollow noreferrer" target="_blank" style="color: white;" href="+vmodal[e]+">VER VIDEO</a>';
+                document.getElementById("link_button").innerHTML = '<a rel="nofollow noreferrer" target="_blank" style="color: white;" href='+vmodal[e]+'>VER VIDEO</a>';
                 document.getElementById("link_button").style.cursor = 'default';
             }
         }
