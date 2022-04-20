@@ -32,7 +32,7 @@ document.getElementById('captchascript').appendChild(inlineScript);
 }
 
 var titulomodal = document.getElementById("titulomodal");
-  titulomodal.innerHTML = "<img class='mx-auto d-block mr-3' src='https://blogger.googleusercontent.com/img/a/AVvXsEgP7uV95Q8ISOdvjP4rc5ZPv7NQTmDT6bTEHjdI1TonUzI62CFeD3RiWdyQRy_XnFKuu7uQEI0jR0B0HHaOJa-N1WngBg7nE8KOoWrdWzePZHm_LiPDfmCCg-kI4sV4UZmPQC6J4tfD-maY2V8Rev2IFtkRsdfzFP-OzQ4iManY4hK8-VEKquP_hrGAVw' style='height: 30px;'/>";
+  titulomodal.innerHTML = "<img class='mx-auto d-block mr-3' src='https://lh3.googleusercontent.com/P4sRiiGQpoTx0-iKsaEtPvQUH7xlJGZt03gHh3YUL2s25-6hGubUCklhbfhbZSkCgS66FuMOfIVmnQJOEdHm9PF2c2YPqLwlnNiVYQ-QOw=s400-rw-no' style='height: 30px;'/>";
 
 var cuerpomodal = document.getElementById("cuerpomodal");
   cuerpomodal.innerHTML = "<div style='margin: 10px 0 10px 0;position: relative;'><div style='text-align: center;'><div class='g-recaptcha m-2' style='display: inline-block;' data-sitekey='6LeYowYaAAAAAB97jxMiic4E6kwBWjD3_Zvxdmin' data-callback='CaptchaChecked'></div></div></div> </br> <p style='text-align: center'>Por favor complete el captcha para continuar...</p> <center><div id='adsContenedor'></div></center></br> <div style='text-align: center;'><button class='btn btn-primary' style='width: 300px;' btn-captcha m-2 disabled' id='enlacecaptcha' disabled='disabled'>Continuar</button></div></br><div id='captchascript'></div>";
@@ -72,7 +72,7 @@ document.getElementById('adsContenedor2').appendChild(inlineScript);
 }
  
 var titulomodal = document.getElementById("titulomodal");
-  titulomodal.innerHTML = "<img class='mx-auto d-block mr-3' src='https://blogger.googleusercontent.com/img/a/AVvXsEgP7uV95Q8ISOdvjP4rc5ZPv7NQTmDT6bTEHjdI1TonUzI62CFeD3RiWdyQRy_XnFKuu7uQEI0jR0B0HHaOJa-N1WngBg7nE8KOoWrdWzePZHm_LiPDfmCCg-kI4sV4UZmPQC6J4tfD-maY2V8Rev2IFtkRsdfzFP-OzQ4iManY4hK8-VEKquP_hrGAVw' style='height: 30px;'/>";
+  titulomodal.innerHTML = "<img class='mx-auto d-block mr-3' src='https://lh3.googleusercontent.com/P4sRiiGQpoTx0-iKsaEtPvQUH7xlJGZt03gHh3YUL2s25-6hGubUCklhbfhbZSkCgS66FuMOfIVmnQJOEdHm9PF2c2YPqLwlnNiVYQ-QOw=s400-rw-no' style='height: 30px;'/>";
   
 var cuerpomodal = document.getElementById("cuerpomodal");
   cuerpomodal.innerHTML = "<div class='link-area'><div class='container'><div class='row'><div class='col-md-12 col-sm-12'><div class='contents text-center animated fadeIn' id='continue_wrapper'></br> <p style='text-align: center'>Por favor espere un momento...</p> <center><div id='adsContenedor2'></div></center></br> <div style='text-align: center;'><span class='btn btn-primary' style='width: 300px;' id='link_button'></span></div></div></br> </div></div></div></div>";
