@@ -81,7 +81,7 @@ ads2();
   
 let time_out = 1000; // 1 seconds
 let counter_id;
-let seconds = 15;
+let seconds = 5;
       
 counter_id = setInterval(update_counter_link, time_out);
 
