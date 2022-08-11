@@ -35,7 +35,7 @@ var titulomodal = document.getElementById("titulomodal");
   titulomodal.innerHTML = "<img class='mx-auto d-block mr-3' src='https://lh3.googleusercontent.com/P4sRiiGQpoTx0-iKsaEtPvQUH7xlJGZt03gHh3YUL2s25-6hGubUCklhbfhbZSkCgS66FuMOfIVmnQJOEdHm9PF2c2YPqLwlnNiVYQ-QOw=s400-rw-no' style='height: 30px;'/>";
 
 var cuerpomodal = document.getElementById("cuerpomodal");
-  cuerpomodal.innerHTML = "<div style='margin: 10px 0 10px 0;position: relative;'><div style='text-align: center;'><div class='g-recaptcha m-2' style='display: inline-block;' data-sitekey='6LeYowYaAAAAAB97jxMiic4E6kwBWjD3_Zvxdmin' data-callback='CaptchaChecked'></div></div></div> </br> <p style='text-align: center'>Please complete the captcha to continue...</p> <center><div id='adsContenedor'></div></center></br> <div style='text-align: center;'><button class='btn btn-primary' style='width: 300px;' btn-captcha m-2 disabled' id='enlacecaptcha' disabled='disabled'>Continue</button></div></br><div id='captchascript'></div>";
+  cuerpomodal.innerHTML = "<div style='margin: 10px 0 10px 0;position: relative;'><div style='text-align: center;'><div class='g-recaptcha m-2' style='display: inline-block;' data-sitekey='6LeYowYaAAAAAB97jxMiic4E6kwBWjD3_Zvxdmin' data-callback='CaptchaChecked'></div></div></div> </br> <p style='text-align: center'>Por favor complete el captcha para continuar...</p> <center><div id='adsContenedor'></div></center></br> <div style='text-align: center;'><button class='btn btn-primary' style='width: 300px;' btn-captcha m-2 disabled' id='enlacecaptcha' disabled='disabled'>Continuar</button></div></br><div id='captchascript'></div>";
 ads();
 captcha();
 getVid(urlVideo);
@@ -75,7 +75,7 @@ var titulomodal = document.getElementById("titulomodal");
   titulomodal.innerHTML = "<img class='mx-auto d-block mr-3' src='https://lh3.googleusercontent.com/P4sRiiGQpoTx0-iKsaEtPvQUH7xlJGZt03gHh3YUL2s25-6hGubUCklhbfhbZSkCgS66FuMOfIVmnQJOEdHm9PF2c2YPqLwlnNiVYQ-QOw=s400-rw-no' style='height: 30px;'/>";
   
 var cuerpomodal = document.getElementById("cuerpomodal");
-  cuerpomodal.innerHTML = "<div class='link-area'><div class='container'><div class='row'><div class='col-md-12 col-sm-12'><div class='contents text-center animated fadeIn' id='continue_wrapper'></br> <p style='text-align: center'>Please wait a moment...</p> <center><div id='adsContenedor2'></div></center></br> <div style='text-align: center;'><span class='btn btn-primary' style='width: 300px;' id='link_button'></span></div></div></br> </div></div></div></div>";
+  cuerpomodal.innerHTML = "<div class='link-area'><div class='container'><div class='row'><div class='col-md-12 col-sm-12'><div class='contents text-center animated fadeIn' id='continue_wrapper'></br> <p style='text-align: center'>Por favor espere un momento...</p> <center><div id='adsContenedor2'></div></center></br> <div style='text-align: center;'><span class='btn btn-primary' style='width: 300px;' id='link_button'></span></div></div></br> </div></div></div></div>";
 
 ads2();
   
@@ -86,14 +86,14 @@ let seconds = 5;
 counter_id = setInterval(update_counter_link, time_out);
 
 function update_counter_link() {
-document.getElementById('link_button').innerHTML = 'Verifing: ' + (--seconds);
+document.getElementById('link_button').innerHTML = 'Verificando: ' + (--seconds);
             if (!seconds) {
                 clearInterval(counter_id);
-                document.getElementById("link_button").innerHTML = '<div class="imps"><a rel="nofollow noreferrer" target="_blank" style="color: white;" href='+resultadoUrl+'>APPLY NOW</a></div>';
+                document.getElementById("link_button").innerHTML = '<div class="imps"><a rel="nofollow noreferrer" target="_blank" style="color: white;" href='+resultadoUrl+'>CONTINUAR</a></div>';
                 document.getElementById("link_button").style.cursor = 'default';
             }
         }
-        document.getElementById('link_button').innerHTML = 'Verifing: ' + seconds;
+        document.getElementById('link_button').innerHTML = 'Verificando: ' + seconds;
 }
 
 }
