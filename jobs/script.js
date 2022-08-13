@@ -7,7 +7,7 @@ function admodal(e){
 "https://www.infoproyectos.com/p/result.html?q=Teachers%20jobs%20in%20canada#gsc.tab=0&gsc.q=Teachers%20jobs%20in%20canada&gsc.page=1",
 "https://www.infoproyectos.com/p/result.html?q=Administrative%20assistants%20jobs%20in%20canada#gsc.tab=0&gsc.q=Administrative%20assistants%20jobs%20in%20canada&gsc.page=1",
                   
-"https://us.mercadojobs.com/ad/education_social_media_writer/3351063203?prevSearch=education",
+"https://www.infoproyectos.com/p/result.html?q=Transport%20truck%20drivers%20jobs%20in%20canada#gsc.tab=0&gsc.q=Transport%20truck%20drivers%20jobs%20in%20canada&gsc.page=1",
 "https://us.mercadojobs.com/ad/director_of_special_education/3354488148?prevSearch=education",            
 "https://us.mercadojobs.com/ad/dean_of_special_education/3354498717?prevSearch=education",
 "https://us.mercadojobs.com/ad/campus_bridge_special_education_coordinator_immediate_start_sy_21_22/3354368557?prevSearch=education",
@@ -48,7 +48,7 @@ var titulomodalAds = document.getElementById("titulomodalAds");
   titulomodalAds.innerHTML = "Please complete the captcha to continue";
 
 var cuerpomodalAds = document.getElementById("cuerpomodalAds");
-  cuerpomodalAds.innerHTML = "<div style='margin: 10px 0 10px 0;position: relative;'><div style='text-align: center;'><div class='g-recaptcha m-2' style='display: inline-block;' data-sitekey='6LeYowYaAAAAAB97jxMiic4E6kwBWjD3_Zvxdmin' data-callback='CaptchaCheckedAds'></div></div></div> </br> <p style='text-align: center'>Related Jobs</p> <center><div id='adsContenedorModal'></div></center></br> <div style='text-align: center;'><a href="+iraurlads[e]+" target='_blank' rel='nofollow' class='btn btn-primary disabled' style='width: 300px;' role='button' id='enlacecaptchaAds'>APPLY</a></div></br><div id='captchascript'></div>";
+  cuerpomodalAds.innerHTML = "<div style='margin: 10px 0 10px 0;position: relative;'><div style='text-align: center;'><div class='g-recaptcha m-2' style='display: inline-block;' data-sitekey='6LeYowYaAAAAAB97jxMiic4E6kwBWjD3_Zvxdmin' data-callback='CaptchaCheckedAds'></div></div></div> </br> <p style='text-align: center'>Related Jobs</p> <center><div id='adsContenedorModal'></div></center></br> <div style='text-align: center;'><a href="+iraurlads[e]+" target='_blank' rel='nofollow' class='btn btn-primary disabled' style='width: 300px;' role='button' id='enlacecaptchaAds'>APPLY HERE</a></div></br><div id='captchascript'></div>";
 adsCon();
 captchaAds();
 }
