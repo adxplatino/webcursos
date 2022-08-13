@@ -1,7 +1,7 @@
 function admodal(e){
   
  var iraurlads = ["/",
-"https://www.whatjobs.com/jobs/Maintenance-Tech-1/Klingerstown/917438657",            
+"https://www.infoproyectos.com/p/result.html?q=retail%20salesperson%20jobs%20in%20canada#gsc.tab=0&gsc.q=retail%20salesperson%20jobs%20in%20canada&gsc.page=1",            
 "https://us.thebigjobsite.com/redirectfeedjob?jobid=BE9ABAF94E4602D07668F729EF5BB5BE&source=jobomas&utm_source=jobomas",
 "https://www.jobvertise.com/job?jobid=33870749&referer=mercado-us-cpc&utm_source=mercado-us-cpc&utm_campaign=mercado-us-cpc&utm_medium=organic&c=0",
 "https://www.jobvertise.com/job?jobid=33870749&referer=mercado-us-cpc&utm_source=mercado-us-cpc&utm_campaign=mercado-us-cpc&utm_medium=organic&c=0",
