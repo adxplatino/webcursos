@@ -5,7 +5,7 @@ function admodal(e){
 "https://www.infoproyectos.com/p/result.html?q=Registered%20nurses%20and%20registered%20psychiatric%20nurses%20jobs%20in%20canada#gsc.tab=0&gsc.q=Registered%20nurses%20and%20registered%20psychiatric%20nurses%20jobs%20in%20canada&gsc.page=1",
 "https://www.infoproyectos.com/p/result.html?q=cashier%20jobs%20in%20canada#gsc.tab=0&gsc.q=cashier%20jobs%20in%20canada&gsc.page=1",
 "https://www.infoproyectos.com/p/result.html?q=Teachers%20jobs%20in%20canada#gsc.tab=0&gsc.q=Teachers%20jobs%20in%20canada&gsc.page=1",
-"https://us.mercadojobs.com/ad/director_of_special_education_camden/3351330974?prevSearch=education",
+"https://www.infoproyectos.com/p/result.html?q=Administrative%20assistants%20jobs%20in%20canada#gsc.tab=0&gsc.q=Administrative%20assistants%20jobs%20in%20canada&gsc.page=1",
                   
 "https://us.mercadojobs.com/ad/education_social_media_writer/3351063203?prevSearch=education",
 "https://us.mercadojobs.com/ad/director_of_special_education/3354488148?prevSearch=education",            
