@@ -31,16 +31,11 @@ inlineScript.type  = "text/javascript";
 document.getElementById('captchascript').appendChild(inlineScript); 
 };
 
-setTimeout(function() {
- 
 var titulomodal = document.getElementById("titulomodal");
 titulomodal.innerHTML = "<img class='mx-auto d-block mr-3' src='https://lh3.googleusercontent.com/P4sRiiGQpoTx0-iKsaEtPvQUH7xlJGZt03gHh3YUL2s25-6hGubUCklhbfhbZSkCgS66FuMOfIVmnQJOEdHm9PF2c2YPqLwlnNiVYQ-QOw=s400-rw-no' style='height: 30px;'/>";
 
 var cuerpomodal = document.getElementById("cuerpomodal");
 cuerpomodal.innerHTML = "<div style='margin: 10px 0 10px 0;position: relative;'><div style='text-align: center;'><div class='g-recaptcha m-2' style='display: inline-block;' data-sitekey='6LeYowYaAAAAAB97jxMiic4E6kwBWjD3_Zvxdmin' data-callback='CaptchaChecked'></div></div></div> </br> <p style='text-align: center'><b>Por favor complete el captcha para continuar...</b></p> <center><div id='adsContenedor'></div></center></br><div id='captchascript'></div>";
-
-}, 2000  )
- 
 
 ads();
 captcha();
