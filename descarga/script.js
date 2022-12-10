@@ -36,7 +36,7 @@ var titulomodal = document.getElementById("titulomodal");
 
 var cuerpomodal = document.getElementById("cuerpomodal");
   cuerpomodal.innerHTML = "<div style='margin: 10px 0 10px 0;position: relative;'><div style='text-align: center;'><div class='g-recaptcha m-2' style='display: inline-block;' data-sitekey='6LeYowYaAAAAAB97jxMiic4E6kwBWjD3_Zvxdmin' data-callback='CaptchaChecked'></div></div></div> </br> <p style='text-align: center'>Por favor complete el captcha para continuar...</p> <center><div id='adsContenedor'></div></center></br> <div style='text-align: center;'><button class='btn btn-primary' style='width: 300px;' btn-captcha m-2 disabled' id='enlacecaptcha' disabled='disabled'>Continuar</button></div></br><div id='captchascript'></div>";
-ads();
+//ads();
 captcha();
 getVid(urlVideo);
 }
@@ -77,7 +77,7 @@ var titulomodal = document.getElementById("titulomodal");
 var cuerpomodal = document.getElementById("cuerpomodal");
   cuerpomodal.innerHTML = "<div class='link-area'><div class='container'><div class='row'><div class='col-md-12 col-sm-12'><div class='contents text-center animated fadeIn' id='continue_wrapper'></br> <p style='text-align: center'>Por favor espere un momento...</p> <center><div id='adsContenedor2'></div></center></br> <div style='text-align: center;'><span class='btn btn-primary' style='width: 300px;' id='link_button'></span></div></div></br> </div></div></div></div>";
 
-ads2();
+//ads2();
   
 let time_out = 1000; // 1 seconds
 let counter_id;
