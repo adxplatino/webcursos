@@ -72,7 +72,7 @@ var player = jwplayer('cuerpomodal').setup({file: video[e] });
 var adsmodal = document.getElementById("adsmodal");
   adsmodal.innerHTML = "<br /><p style='text-align: center'>Curso de carpintería desde cero.</p> <center><div id='adsContenedor'></div></center><br />";
     
-ads();
+//ads();
 }
 function cerrarmodal(){
   $(".jw-video").attr('src', '');
