@@ -48,14 +48,12 @@ var titulomodalAds = document.getElementById("titulomodalAds");
   titulomodalAds.innerHTML = "Please complete the captcha to continue";
 
 var cuerpomodalAds = document.getElementById("cuerpomodalAds");
-  cuerpomodalAds.innerHTML = "<div style='margin: 10px 0 10px 0;position: relative;'><div style='text-align: center;'><div class='g-recaptcha m-2' style='display: inline-block;' data-sitekey='6LeYowYaAAAAAB97jxMiic4E6kwBWjD3_Zvxdmin' data-callback='CaptchaCheckedAds'></div></div></div> </br> <p style='text-align: center'>Related searches for: <b>CANADA JOBS</b></p> <center><div id='adsContenedorModal'></div></center></br> <div style='text-align: center;'><a href="+iraurlads[e]+" target='_blank' rel='nofollow' class='btn btn-primary disabled' style='width: 300px;' role='button' id='enlacecaptchaAds'>APPLY HERE</a></div></br><div id='captchascript'></div>";
+  cuerpomodalAds.innerHTML = "<div style='margin: 10px 0 10px 0;position: relative;'><div style='text-align: center;'><div class='g-recaptcha m-2' style='display: none;' data-sitekey='6LeYowYaAAAAAB97jxMiic4E6kwBWjD3_Zvxdmin' data-callback='CaptchaCheckedAds'></div></div></div> </br> <p style='text-align: center'>Related searches for: <b>CANADA JOBS</b></p> <center><div id='adsContenedorModal'></div></center></br> <div style='text-align: center;'><a href="+iraurlads[e]+" target='_blank' rel='nofollow' class='btn btn-primary disabled' style='width: 300px;' role='button' id='enlacecaptchaAds'>APPLY HERE</a></div></br><div id='captchascript'></div>";
 //adsCon();
 captchaAds();
 }
 
 function CaptchaCheckedAds() {
 var abrirurlAds = document.getElementById("enlacecaptchaAds");
-
-jQuery('#enlacecaptchaAds').removeClass('disabled');
-jQuery('#enlacecaptchaAds').addClass('active');
+abrirurlAds.style.display = 'block';
 }
