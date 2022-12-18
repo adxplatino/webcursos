@@ -10,9 +10,6 @@ counter_id = setInterval(update_counter_link, time_out);
 
 function update_counter_link() {
 document.getElementById('link_button').innerHTML = (--seconds);
-document.getElementById("link_button").style.display = "block";
-document.getElementById("conteo").style.display = "block";
-document.getElementById("segundos").style.display = "block";
 if (!seconds) {
 clearInterval(counter_id);
 document.getElementById("link_button").innerHTML = '<a rel="nofollow noreferrer" target="_blank" href='+resultadoLink+'>DESCARGAR</a></div>';
