@@ -13,3 +13,9 @@ document.getElementById("linkDownload").style.display = "inline";
         }
 
 }
+
+
+function getResultado(){
+var resultadoBuscar = document.getElementById("resultadosBusqueda");
+resultadoBuscar.innerHTML = "Please complete the captcha to continue";
+}
