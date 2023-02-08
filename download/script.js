@@ -13,9 +13,3 @@ document.getElementById("linkDownload").style.display = "inline";
         }
 
 }
-
-
-function getResultado(){
-var resultadoBuscar = document.getElementById("resultadosBusqueda");
-resultadoBuscar.innerHTML = "<div class='gcse-searchresults-only'></div>";
-}
